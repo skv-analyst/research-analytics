@@ -1,0 +1,14 @@
+[project]
+name = "tg-analytics-channels"
+version = "0.1.0"
+description = "Аналитическое исследование"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "jupyter",
+    "pandas",
+    "plotly",
+    "requests>=2.32.5",
+    "telethon>=1.40.0",
+]
