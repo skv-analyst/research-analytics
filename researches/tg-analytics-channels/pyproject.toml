@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 
 dependencies = [
+    "asyncio>=4.0.0",
     "jupyter",
     "pandas",
     "plotly",
