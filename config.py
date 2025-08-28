@@ -10,5 +10,3 @@ os.makedirs(PATH_TO_SESSION, exist_ok=True)
 # Telegram API
 TG_USER_APP_API_ID = os.getenv("TELEGRAM_USER_APP_API_ID")
 TG_USER_APP_API_HASH = os.getenv("TELEGRAM_USER_APP_API_HASH")
-
-print(ROOT_DIR, PATH_TO_RESEARCHES)
