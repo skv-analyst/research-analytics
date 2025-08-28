@@ -32,6 +32,9 @@ EOF
 # Переходим в директорию исследования и устанавливаем пакеты
 cd "$RESEARCH_DIR" && uv add --quiet jupyter pandas requests plotly
 
+# Возвращаемся обратно в корневую директорию
+cd -
+
 # Создаём базовый README
 echo "# $RESEARCH_NAME" > "$RESEARCH_DIR/README.md"
 
