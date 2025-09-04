@@ -15,7 +15,7 @@ async def main():
 
         for channel in channels:
             channel_entity = await parser_posts.get_channel_information(channel)
-            posts = await parser_posts.get_channel_posts(channel_entity, post_counts=20)
+            posts = await parser_posts.get_channel_posts(channel_entity, post_counts=100)
 
             for p in posts:
                 # проверяем, есть ли пост в БД
