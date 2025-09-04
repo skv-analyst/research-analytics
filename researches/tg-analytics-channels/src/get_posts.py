@@ -2,20 +2,20 @@ import asyncio
 import time
 
 from sqlalchemy import exists, and_
-from tg_parser import TelegramFetchPosts
+from parsers import TelegramFetchPosts
 from models import Post, get_session
 
 
 async def main():
     parser_posts = TelegramFetchPosts()
-    channels = ["tagir_analyzes", "zarplatnik_analytics"]
+    channels = ["select_all_from_analytics"] #["tagir_analyzes", "zarplatnik_analytics"]
 
     async with parser_posts.client:
         session = get_session()
 
         for channel in channels:
             channel_entity = await parser_posts.get_channel_information(channel)
-            posts = await parser_posts.get_channel_posts(channel_entity, post_counts=100)
+            posts = await parser_posts.get_channel_posts(channel_entity, post_counts=10)
 
             for p in posts:
                 # проверяем, есть ли пост в БД
