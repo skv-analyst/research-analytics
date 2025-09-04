@@ -23,7 +23,7 @@ class Post(Base):
     )
 
 
-def get_session(db_path="sqlite:///tg-analytics-channels.db"):
+def get_session(db_path="sqlite:///tg_analytics_channels.db"):
     engine = create_engine(db_path, echo=False)
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
