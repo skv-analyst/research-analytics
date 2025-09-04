@@ -7,6 +7,7 @@ Base = declarative_base()
 class Post(Base):
     __tablename__ = "posts"
 
+
     id = Column(Integer, primary_key=True, autoincrement=True)
     channel_id = Column(Integer, nullable=False)
     channel_name = Column(String, nullable=True)
