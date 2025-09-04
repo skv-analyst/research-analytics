@@ -6,13 +6,18 @@ from parsers import TelegramFetchComments
 from models import Post, Comment, get_session
 
 
-async def main():
+async def main(limit: int = 10):
     parser_comments = TelegramFetchComments()
     session = get_session()
 
     async with parser_comments.client:
-        # выбираем посты, по которым еще нет комментариев
-        posts_without_comments = session.query(Post).filter(~Post.comments.any()).all()
+        # выбираем посты, по которым в БД еще нет комментариев
+        query = session.query(Post).filter(~Post.comments.any())
+
+        if limit is not None:
+            query = query.limit(limit)
+
+        posts_without_comments = query.all()
 
         print(f"Найдено {len(posts_without_comments)} постов без комментариев")
 
