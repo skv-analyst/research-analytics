@@ -44,6 +44,7 @@ class Comment(Base):
     comment_date = Column(DateTime, nullable=False)
     author_uuid = Column(String(36), nullable=True, index=True)
     author_title = Column(String, nullable=True)
+    author_username = Column(String, nullable=True)
 
     # Связь с Post через составной ключ (channel_id + post_id)
     post = relationship(

@@ -72,9 +72,9 @@ async def main(limit: int = 10):
                     post_id=c["post_id"],
                     comment_id=c["comment_id"],
                     comment_date=c["comment_date"],
-                    author_id=c["author_id"],
                     author_uuid=hash_author_id_uuid(c["author_id"]),
-                    author_title=c["author_title"] if c["author_title"] else "user"
+                    author_title=c["author_title"] if c["author_title"] else "user",
+                    author_username=c["author_username"] if c["author_title"] else "user",
                 )
                 session.add(comment)
                 saved_count += 1
@@ -90,4 +90,4 @@ async def main(limit: int = 10):
 
 
 if __name__ == "__main__":
-    asyncio.run(main(limit=5))
+    asyncio.run(main())

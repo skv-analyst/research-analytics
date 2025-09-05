@@ -6,9 +6,8 @@ from parsers import TelegramFetchPosts
 from models import Post, get_session
 
 
-async def main():
+async def main(channels):
     parser_posts = TelegramFetchPosts()
-    channels = ["tagir_analyzes", "zarplatnik_analytics"]
 
     async with parser_posts.client:
         session = get_session()
@@ -39,4 +38,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    channels = []
+    asyncio.run(main(channels))
