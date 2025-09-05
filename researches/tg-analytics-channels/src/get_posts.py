@@ -1,5 +1,4 @@
 import asyncio
-import time
 
 from sqlalchemy import exists, and_
 from parsers import TelegramFetchPosts
@@ -34,7 +33,7 @@ async def main(channels):
 
             session.commit()
             print(f"{channel}: посты собраны")
-            time.sleep(3)
+            await asyncio.sleep(2)
 
 
 if __name__ == "__main__":
