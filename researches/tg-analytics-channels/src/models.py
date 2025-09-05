@@ -42,12 +42,8 @@ class Comment(Base):
     post_id = Column(Integer, nullable=False)
     comment_id = Column(Integer, nullable=False)
     comment_date = Column(DateTime, nullable=False)
-
-    author_id = Column(Integer, nullable=True)
+    author_uuid = Column(Integer, nullable=True)
     author_title = Column(String, nullable=True)
-    author_username = Column(String, nullable=True)
-    author_first_name = Column(String, nullable=True)
-    author_last_name = Column(String, nullable=True)
 
     # Связь с Post через составной ключ (channel_id + post_id)
     post = relationship(
@@ -67,7 +63,7 @@ class Comment(Base):
     )
 
 
-def get_session(db_path="sqlite:///tg_analytics_channels_v2.db"):
+def get_session(db_path="sqlite:///tg_analytics_channels.db"):
     engine = create_engine(db_path, echo=False)
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)

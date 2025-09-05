@@ -1,10 +1,16 @@
 import asyncio
 import random
+import uuid
 
 from sqlalchemy import exists, and_
 from parsers import TelegramFetchComments
 from models import Post, Comment, get_session
 
+
+def hash_author_id_uuid(author_id: int) -> str:
+    if author_id is None:
+        return None
+    return str(uuid.uuid5(uuid.NAMESPACE_DNS, str(author_id)))
 
 async def main(limit: int = 10):
     parser_comments = TelegramFetchComments()
@@ -67,10 +73,8 @@ async def main(limit: int = 10):
                     comment_id=c["comment_id"],
                     comment_date=c["comment_date"],
                     author_id=c["author_id"],
-                    author_title=c["author_title"],
-                    author_username=c["author_username"],
-                    author_first_name=c["author_first_name"],
-                    author_last_name=c["author_last_name"]
+                    author_uuid=hash_author_id_uuid(c["author_id"]),
+                    author_title=c["author_title"] if c["author_title"] else "user"
                 )
                 session.add(comment)
                 saved_count += 1
@@ -86,4 +90,4 @@ async def main(limit: int = 10):
 
 
 if __name__ == "__main__":
-    asyncio.run(main(limit=100))
+    asyncio.run(main(limit=5))
