@@ -1,6 +1,6 @@
 from sqlalchemy import (
     Column, Integer, String, DateTime, create_engine,
-    UniqueConstraint, ForeignKeyConstraint, and_
+    UniqueConstraint, ForeignKeyConstraint, and_, func
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
@@ -62,6 +62,16 @@ class Comment(Base):
             ['posts.channel_id', 'posts.post_id']
         ),
     )
+
+
+class Subscribers(Base):
+    __tablename__ = "subscribers"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    channel_id = Column(Integer, nullable=False)
+    channel_name = Column(String, nullable=False)
+    subscribers = Column(Integer, nullable=False)
+    timestamp = Column(DateTime, server_default=func.now(), nullable=False)
 
 
 def get_session(db_path="sqlite:///tg_analytics_channels.db"):

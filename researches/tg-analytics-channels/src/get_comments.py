@@ -20,7 +20,11 @@ async def main(limit: int = 10):
 
     async with parser_comments.client:
         # Выбираем посты, по которым в БД еще нет комментариев
-        query = session.query(Post).filter(~Post.comments.any())
+        # query = session.query(Post).filter(~Post.comments.any())
+        query = session.query(Post).filter(
+            ~Post.comments.any(),
+            Post.post_replies > 0
+        )
         if limit is not None:
             query = query.limit(limit)
         posts_without_comments = query.all()

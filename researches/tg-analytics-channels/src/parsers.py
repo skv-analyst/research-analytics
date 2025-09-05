@@ -1,4 +1,6 @@
+from datetime import datetime
 from telethon import TelegramClient
+from telethon.tl.functions.channels import GetFullChannelRequest
 from config import PATH_TO_SESSION, TG_USER_APP_API_ID, TG_USER_APP_API_HASH
 
 
@@ -70,3 +72,48 @@ class TelegramFetchComments:
                 })
 
         return results
+
+
+# class TelegramFetchSubscribers:
+#     def __init__(self):
+#         session_path = PATH_TO_SESSION / "my_session"
+#         self.client = TelegramClient(
+#             str(session_path), TG_USER_APP_API_ID, TG_USER_APP_API_HASH
+#         )
+#
+#     async def get_subscriber_count(self, channel_name: str) -> dict:
+#         channel = await self.client.get_entity(channel_name)
+#
+#         return(channel.to_dict())
+        # if hasattr(channel, "participants_count") and channel.participants_count is not None:
+        #     count = channel.participants_count
+        # else:
+        #     participants = await self.client.get_participants(channel, limit=0)
+        #     count = len(participants)
+        #
+        # return {
+        #     "channel_id": channel.id,
+        #     "channel_name": channel.username,
+        #     "subscribers": count,
+        #     "timestamp": datetime.utcnow(),
+        # }
+
+
+class TelegramFetchSubscribers:
+    def __init__(self):
+        session_path = PATH_TO_SESSION / "my_session"
+        self.client = TelegramClient(str(session_path), TG_USER_APP_API_ID, TG_USER_APP_API_HASH)
+
+    async def get_subscriber_count(self, channel_name: str) -> dict:
+        """
+        Возвращает количество подписчиков канала.
+        """
+        channel = await self.client.get_entity(channel_name)
+        full = await self.client(GetFullChannelRequest(channel))
+
+        return {
+            "channel_id": channel.id,
+            "channel_name": channel.username,
+            "subscribers": full.full_chat.participants_count,
+            "timestamp": datetime.utcnow()
+        }
