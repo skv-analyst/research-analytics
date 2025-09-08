@@ -1,5 +1,7 @@
+from xmlrpc.client import Boolean
+
 from sqlalchemy import (
-    Column, Integer, String, DateTime, create_engine,
+    Column, Integer, String, DateTime, Boolean, create_engine,
     UniqueConstraint, ForeignKeyConstraint, and_, func
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
@@ -64,14 +66,15 @@ class Comment(Base):
     )
 
 
-class Subscribers(Base):
-    __tablename__ = "subscribers"
+class Channels(Base):
+    __tablename__ = "channels"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     channel_id = Column(Integer, nullable=False)
     channel_name = Column(String, nullable=False)
     subscribers = Column(Integer, nullable=False)
     timestamp = Column(DateTime, server_default=func.now(), nullable=False)
+    is_target = Column(Boolean, nullable=True)
 
 
 def get_session(db_path="sqlite:///tg_analytics_channels.db"):

@@ -1,11 +1,12 @@
 import asyncio
 import random
+import time
 import uuid
 from tqdm.asyncio import tqdm_asyncio
 
 from sqlalchemy import exists, and_
 from parsers import TelegramFetchComments
-from models import Post, Comment, get_session
+from models import Post, Comment, Channels, get_session
 
 
 def hash_author_id_uuid(author_id: int) -> str:
@@ -19,12 +20,17 @@ async def main(limit: int = 10):
     session = get_session()
 
     async with parser_comments.client:
-        # Выбираем посты, по которым в БД еще нет комментариев
-        # query = session.query(Post).filter(~Post.comments.any())
-        query = session.query(Post).filter(
-            ~Post.comments.any(),
-            Post.post_replies > 0
+        # Выбираем посты только из целевых каналов, с комментариями, по которым ещё нет записей
+        query = (
+            session.query(Post)
+            .join(Channels, Channels.channel_id == Post.channel_id)
+            .filter(
+                Channels.is_target.is_(True),
+                ~Post.comments.any(),
+                Post.post_replies > 0
+            )
         )
+
         if limit is not None:
             query = query.limit(limit)
         posts_without_comments = query.all()
@@ -72,4 +78,6 @@ async def main(limit: int = 10):
 
 
 if __name__ == "__main__":
-    asyncio.run(main(100))
+    for i in range(1, 11):
+        time.sleep(5)
+        asyncio.run(main(100))
