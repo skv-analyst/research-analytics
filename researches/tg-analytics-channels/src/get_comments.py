@@ -4,7 +4,7 @@ import time
 import uuid
 from tqdm.asyncio import tqdm_asyncio
 
-from sqlalchemy import exists, and_
+from sqlalchemy import exists, and_, func
 from parsers import TelegramFetchComments
 from models import Post, Comment, Channels, get_session
 
@@ -20,14 +20,30 @@ async def main(limit: int = 10):
     session = get_session()
 
     async with parser_comments.client:
-        # Выбираем посты только из целевых каналов, с комментариями, по которым ещё нет записей
+        # Количество уже собранных комментариев по каждому посту
+        comment_counts = (
+            session.query(
+                Comment.channel_id,
+                Comment.post_id,
+                func.count(Comment.comment_id).label("saved_count")
+            )
+            .group_by(Comment.channel_id, Comment.post_id)
+            .subquery()
+        )
+
+        # Выбираем посты только из целевых каналов, у которых комментариев меньше, чем post_replies - 10
         query = (
             session.query(Post)
             .join(Channels, Channels.channel_id == Post.channel_id)
+            .outerjoin(
+                comment_counts,
+                (comment_counts.c.channel_id == Post.channel_id) &
+                (comment_counts.c.post_id == Post.post_id)
+            )
             .filter(
                 Channels.is_target.is_(True),
-                ~Post.comments.any(),
-                Post.post_replies > 0
+                Post.post_replies > 0,
+                func.coalesce(comment_counts.c.saved_count, 0) < (Post.post_replies - 10)
             )
         )
 

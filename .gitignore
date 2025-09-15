@@ -209,3 +209,6 @@ __marimo__/
 
 # Project
 /tg-session/
+
+# OS
+.DS_Store
