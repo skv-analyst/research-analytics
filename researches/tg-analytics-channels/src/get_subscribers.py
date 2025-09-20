@@ -1,9 +1,17 @@
+"""
+СКРИПТ СБОРА СТАТИСТИКИ ПОДПИСЧИКОВ
+Периодический сбор статистики по подписчикам каналов.
+Задача: Обновляет количество подписчиков для всех каналов в БД.
+"""
+
 import asyncio
 from models import get_session, Channels, Post
 from parsers import TelegramFetchSubscribers
 
 
 async def main():
+    """Основная функция: собирает статистику подписчиков для всех каналов"""
+
     session = get_session()
     parser = TelegramFetchSubscribers()
 

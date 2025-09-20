@@ -1,11 +1,18 @@
-import asyncio
+"""
+СКРИПТ СБОРА ПОСТОВ ИЗ КАНАЛОВ
+Сбор новых постов из указанных Telegram каналов.
+Задача: Добавляет в БД посты, которых еще нет в базе.
+"""
 
+import asyncio
 from sqlalchemy import exists, and_
 from parsers import TelegramFetchPosts
 from models import Post, get_session
 
 
 async def main(channels):
+    """Основная функция: собирает посты из списка каналов"""
+
     parser_posts = TelegramFetchPosts()
 
     async with parser_posts.client:

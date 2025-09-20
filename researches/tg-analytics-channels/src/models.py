@@ -1,3 +1,9 @@
+"""
+МОДЕЛИ БАЗЫ ДАННЫХ
+Определение структуры БД (таблицы и связи) для хранения данных Telegram.
+SQLAlchemy ORM
+"""
+
 from xmlrpc.client import Boolean
 
 from sqlalchemy import (
@@ -10,6 +16,8 @@ Base = declarative_base()
 
 
 class Post(Base):
+    """Модель поста в Telegram канале (основная сущность)"""
+
     __tablename__ = "posts"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -37,6 +45,8 @@ class Post(Base):
 
 
 class Comment(Base):
+    """Модель комментария к посту"""
+
     __tablename__ = "comments"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -67,6 +77,8 @@ class Comment(Base):
 
 
 class Channels(Base):
+    """Модель информации о каналах (метаданные)"""
+
     __tablename__ = "channels"
 
     id = Column(Integer, primary_key=True, autoincrement=True)

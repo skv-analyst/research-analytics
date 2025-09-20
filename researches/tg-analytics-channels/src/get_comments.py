@@ -1,3 +1,10 @@
+"""
+СКРИПТ СБОРА КОММЕНТАРИЕВ
+Сбор комментариев к постам из целевых каналов.
+Задача: Обновляет комментарии для постов, где их недостаточно.
+Особенности: Работает только с целевыми каналами, избегает дубликатов.
+"""
+
 import asyncio
 import random
 import time
@@ -10,12 +17,16 @@ from models import Post, Comment, Channels, get_session
 
 
 def hash_author_id_uuid(author_id: int) -> str:
+    """Генерация UUID на основе ID автора для анонимизации"""
+
     if author_id is None:
         return None
     return str(uuid.uuid5(uuid.NAMESPACE_DNS, str(author_id)))
 
 
 async def main(limit: int = 10):
+    """Основная функция: сбор комментариев для постов целевых каналов"""
+
     parser_comments = TelegramFetchComments()
     session = get_session()
 

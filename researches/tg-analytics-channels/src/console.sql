@@ -32,7 +32,9 @@ with
             channel_id,
             channel_name,
             channel_title,
-            count(post_id) as grab_post_cnt
+            count(post_id) as grab_post_cnt,
+            min(post_date) as post_date_min,
+            max(post_date) as post_date_max
         from posts
         where post_replies > 0
         group by channel_id, channel_name, channel_title
@@ -66,6 +68,8 @@ with
             channel.subscribers,
             channel.channel_name,
             tp.channel_title,
+            tp.post_date_min,
+            tp.post_date_max,
             tp.grab_post_cnt,
             tc.save_post_cnt,
             tc.save_comment_cnt,
@@ -87,5 +91,7 @@ select
     count(distinct channel_id) as channel_cnt,
     sum(grab_post_cnt) as grab_post_cnt,
     sum(save_post_cnt) as save_post_cnt,
-    sum(save_comment_cnt) as save_comment_cnt
+    sum(save_comment_cnt) as save_comment_cnt,
+    min(post_date_min) as post_date_min,
+    max(post_date_min) as post_date_max
 from results;
