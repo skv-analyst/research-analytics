@@ -1,0 +1,48 @@
+"""
+СКРИПТ СБОРА ПОСТОВ ИЗ КАНАЛОВ
+Сбор новых постов из указанных Telegram каналов.
+Задача: Добавляет в БД посты, которых еще нет в базе.
+"""
+
+import asyncio
+from sqlalchemy import exists, and_
+from parsers import TelegramFetchPosts
+from models import Post, get_session
+
+
+async def main(channels):
+    """Основная функция: собирает посты из списка каналов"""
+
+    parser_posts = TelegramFetchPosts()
+
+    async with parser_posts.client:
+        session = get_session()
+
+        for channel in channels:
+            channel_entity = await parser_posts.get_channel_information(channel)
+            posts = await parser_posts.get_channel_posts(channel_entity, post_counts=100)
+
+            for p in posts:
+                # проверяем, есть ли пост в БД
+                exists_query = session.query(
+                    exists().where(
+                        and_(Post.channel_id == p["channel_id"], Post.post_id == p["post_id"])
+                    )
+                ).scalar()
+
+                # пропускаем, если есть
+                if exists_query:
+                    continue
+
+                # сохраняем если нет
+                post = Post(**p)
+                session.add(post)
+
+            session.commit()
+            print(f"{channel}: посты собраны")
+            await asyncio.sleep(2)
+
+
+if __name__ == "__main__":
+    channels = []
+    asyncio.run(main(channels))
