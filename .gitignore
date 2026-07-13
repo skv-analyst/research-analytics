@@ -210,5 +210,25 @@ __marimo__/
 # Project
 /tg-session/
 
-# OS
+# Telethon session files — эквивалент активной сессии в Telegram, никогда не в git
+*.session
+*.session-journal
+
+# SQLite temp files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent

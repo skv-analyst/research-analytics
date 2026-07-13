@@ -10,3 +10,6 @@ os.makedirs(PATH_TO_SESSION, exist_ok=True)
 # Telegram API
 TG_USER_APP_API_ID = os.getenv("TELEGRAM_USER_APP_API_ID")
 TG_USER_APP_API_HASH = os.getenv("TELEGRAM_USER_APP_API_HASH")
+
+# researches/003-tg-channels-hihikvadrat — чат, из которого собираются интро
+TELEGRAM_CHAT = "@hihikvadrat"

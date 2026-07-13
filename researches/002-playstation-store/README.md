@@ -20,7 +20,7 @@ playstation-store/
 ## Установка зависимостей
 
 ```bash
-cd researches/playstation-store
+cd researches/002-playstation-store
 uv sync
 ```
 
