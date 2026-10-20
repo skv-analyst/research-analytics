@@ -1,0 +1,2094 @@
+{
+ "delta-lake-sovremennye-arhitektury-ozer-dannyh": [
+  "Хранение и обработка данных",
+  "O'Reilly"
+ ],
+ "model-s4-vizualizatsiya-programmnoy-arhitektury": [
+  "O'Reilly"
+ ],
+ "patterny-proektirovaniya-genai-resheniya-rasprostranennyh-problem-pri-sozdanii-agentov-i-prilozheniy-genai": [
+  "Хранение и обработка данных",
+  "ML/ИИ",
+  "CS и алгоритмы",
+  "O'Reilly"
+ ],
+ "sovremennyy-web-performance-engineering-uluchshaem-skorost-i-kachestvo-prilozheniy-s-ii": [
+  "Хранение и обработка данных",
+  "ML/ИИ"
+ ],
+ "glubokoe-obuchenie-na-python-3-e-mezhd-izdanie": [
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "prostoy-python-sovremennyy-stil-programmirovaniya-3-e-izd": [
+  "Языки программирования",
+  "Python",
+  "O'Reilly"
+ ],
+ "kontrakty-dannyh-razrabotka-konveyerov-prodakshen-urovnya": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "upravlenie-metadannymi-kak-metasetki-obedinyayut-dannye-informatsiyu-i-znaniya": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "O'Reilly"
+ ],
+ "data-integration-obedinenie-dannyh-dlya-uluchsheniya-protsessa-prinyatiya-resheniy": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "vysokonagruzhennye-prilozheniya-programmirovanie-masshtabirovanie-podderzhka-2-e-izd-2": [
+  "Хранение и обработка данных",
+  "Базы данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "patterny-proektirovaniya-ii-interfeysov-kak-sozdavat-kreativnye-i-avtonomnye-sistemy-2": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "solutions-architect-perezhit-intervyu-kak-arhitektoru-resheniy-poluchit-rabotu-mechty": [
+  "Библиотека программиста"
+ ],
+ "grokaem-algoritmy-iskusctvennogo-intellekta-2-e-izd": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "predmetno-orientirovannoe-proektirovanie-modernizatsiya-legasi-sistem-i-snizhenie-riskov-s-pomoschyu-ddd": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "strategiya-razrabotki-inzhenernye-resheniya-dlya-cto-i-tehnicheskih-liderov": [
+  "Библиотека программиста",
+  "Управление IT-проектами",
+  "O'Reilly"
+ ],
+ "sozdanie-prilozheniy-s-ii-agentami-proektirovanie-i-vnedrenie-multiagentnyh-sistem-2": [
+  "Хранение и обработка данных",
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "osnovy-go": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Go"
+ ],
+ "java-dlya-profi-instrumenty-freymvorki-testirovanie-proizvoditelnost-spring-git-prometheus-project-lombok": [
+  "Языки программирования",
+  "Java",
+  "Для профессионалов"
+ ],
+ "metriki-programmnoy-arhitektury-keysy-povyshayuschie-kachestvo-po": [
+  "O'Reilly"
+ ],
+ "sistemnaya-inzheneriya-sovremennye-metody-proektirovaniya-dlya-sozdaniya-slozhnyh-informatsionnyh-sistem-2-e-izd": [
+  "Библиотека программиста"
+ ],
+ "postroenie-postkvantovyh-algebraicheskih-algoritmov-etsp-s-dvumya-skrytymi-gruppami": [
+  "Безопасность"
+ ],
+ "llm-na-praktike-bolshie-yazykovye-modeli-ot-idei-do-vnedreniya": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "sovremennaya-biznes-analitika-uvelichte-tsennost-dannyh-s-pomoschyu-python-i-r": [
+  "Хранение и обработка данных",
+  "O'Reilly"
+ ],
+ "python-ekspress-kurs-4-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "the-ultimate-kali-linux-book-ispolzovanie-nmap-metasploit-aircrack-ng-i-empire-dlya-pentestinga-3-e-mezhd-izd": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "stili-api-proektirovanie-i-vnedrenie": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "dumay-kak-analitik-statistika-i-dannye-s-primerami-na-python-3-e-izd": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "avtomatizatsiya-dostavki-api-uluchshaem-skorost-i-kachestvo-s-apiops-i-openapi": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "osnovy-devops-i-software-delivery-praktika-razvertyvaniya-i-soprovozhdeniya-po-v-prodakshene": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "bezopasnost-konteynerov-fundamentalnyy-podhod-k-zaschite-konteynerizirovannyh-prilozheniy-2-e-izd": [
+  "Безопасность",
+  "O'Reilly"
+ ],
+ "analiz-dannyh-s-llm-tekst-tablitsy-izobrazheniya-i-audio": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Data science",
+  "ML/ИИ"
+ ],
+ "kompyuternye-seti-printsipy-tehnologii-protokoly-7-e-izdanie": [
+  "ОС"
+ ],
+ "sovremennyy-java-concurrency-glubokoe-pogruzhenie-v-virtual-threads-structured-concurrency-i-scoped-values": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Java",
+  "O'Reilly"
+ ],
+ "kubernetes-polnoe-rukovodstvo-po-razvertyvaniyu-i-upravleniyu-kubernetes-v-oblachnyh-i-lokalnyh-sredah-2-e-izd": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "head-first-izuchaem-c-i-net-5-e-izd": [
+  "Языки программирования",
+  "C/C++/C#",
+  "O'Reilly"
+ ],
+ "system-design-proektirovanie-mobilnyh-sistem-podgotovka-k-slozhnomu-intervyu": [
+  "Библиотека программиста",
+  "Мобильная разработка",
+  "CS и алгоритмы"
+ ],
+ "izuchaem-sql-za-mesyats-zanimayas-odin-chas-v-den": [
+  "Хранение и обработка данных",
+  "Языки программирования"
+ ],
+ "100-oshibok-c-i-kak-ih-izbezhat": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "antipatterny-postgresql-i-kak-ih-izbezhat": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Базы данных"
+ ],
+ "windows-server-2022-polnoe-rukovodstvo-po-administrirovaniyu": [
+  "Библиотека программиста",
+  "ОС",
+  "Администрирование"
+ ],
+ "ohota-za-kiberugrozami": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "object-oriented-design-podgotovka-k-slozhnomu-intervyu": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "linux-dlya-administratorov-2-e-izd": [
+  "Библиотека программиста",
+  "ОС",
+  "Linux",
+  "Администрирование"
+ ],
+ "apache-kafka-v-deystvii-ot-bazovyh-kontseptsiy-do-prodakshena": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Администрирование"
+ ],
+ "arhitektura-medalona-proektirovanie-s-pomoschyu-delta-lake-i-spark": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "O'Reilly"
+ ],
+ "razrabotka-interfeysov-patterny-proektirovaniya-3-e-izd-2": [
+  "Графика и дизайн",
+  "O'Reilly"
+ ],
+ "effektivnyy-razgovornyy-ii-sozdaem-chat-botov-kotorye-deystvitelno-rabotayut": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "ML/ИИ"
+ ],
+ "mashinnoe-obuchenie-na-tablichnyh-dannyh-xgboost-glubokoe-obuchenie-i-ii": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "Data science",
+  "ML/ИИ"
+ ],
+ "github-copilot-programmirovanie-v-pare-s-ii": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "intervyu-po-mashinnomu-obucheniyu-151-vopros-ot-faang": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "patterny-coding-interview-podgotovka-k-slozhnomu-tehnicheskomu-intervyu": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Языки программирования",
+  "Python"
+ ],
+ "osnovy-graphrag-uluchshennyy-rag-na-baze-grafov-znaniy": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "fundamentalnyy-podhod-k-programmnoy-arhitekture-2-e-mezhd-izd": [
+  "Для профессионалов",
+  "O'Reilly"
+ ],
+ "roblox-igray-programmiruy-i-sozdavay-svoi-miry-3-e-izd": [],
+ "grokaem-proektirovanie-relyatsionnyh-baz-dannyh": [
+  "Библиотека программиста",
+  "ОС",
+  "Хранение и обработка данных",
+  "Базы данных"
+ ],
+ "argo-cd-bystryy-start": [
+  "Библиотека программиста",
+  "Администрирование",
+  "O'Reilly"
+ ],
+ "obrabotka-estestvennogo-yazyka-v-deystvii-2-e-izd": [
+  "ML/ИИ",
+  "CS и алгоритмы",
+  "Для профессионалов"
+ ],
+ "kontraktnoe-testirovanie-v-deystvii": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "algoritmy-kriptografii": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "po-moemu-neploho-konstruktivnye-kod-revyu": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "spring-security-4-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Java"
+ ],
+ "delay-kak-v-google-razrabotka-programmnogo-obespecheniya-3": [
+  "O'Reilly"
+ ],
+ "bibliya-excel-365": [
+  "Хранение и обработка данных"
+ ],
+ "terraform-luchshie-praktiki-podgotovka-zapusk-i-masshtabirovanie-oblachnoy-arhitektury-na-realnyh-primerah": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Администрирование"
+ ],
+ "defensive-security-luchshie-praktiki-obespecheniya-bezopasnosti-infrastruktur-2-e-izd": [
+  "Безопасность",
+  "O'Reilly"
+ ],
+ "effektivnyy-nodejs": [
+  "Веб",
+  "O'Reilly"
+ ],
+ "mashinnoe-obuchenie-proektirovanie-sistem-ot-idei-do-realizatsii": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "system-design-ii-raspredelennye-sistemy-podgotovka-k-slozhnomu-intervyu": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "arhitektury-dannyh-sovremennye-resheniya-dlya-lyubyh-zadach": [
+  "Библиотека программиста",
+  "Хранение и обработка данных",
+  "O'Reilly"
+ ],
+ "analiz-dannyh-s-pomoschyu-genai-i-python": [
+  "Библиотека программиста",
+  "ML/ИИ"
+ ],
+ "go-na-praktike-2-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Go"
+ ],
+ "staff-product-designer-put-produktovogo-dizaynera-ot-middle-k-lead": [
+  "Для профессионалов",
+  "Графика и дизайн"
+ ],
+ "system-design-podgotovka-k-slozhnomu-intervyu-po-genai": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "active-directory-proektirovanie-razvertyvanie-i-zaschita-3-e-izd": [
+  "Библиотека программиста",
+  "ОС"
+ ],
+ "ai-inzheneriya-postroenie-prilozheniy-s-ispolzovaniem-bazovyh-modeley": [
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "patterny-proektirovaniya-rust": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "patterny-kubernetes-shablony-razrabotki-oblachnyh-prilozheniy-2-e-izd": [
+  "O'Reilly"
+ ],
+ "head-first-izuchaem-programmirovanie-na-javascript-2-e-izd": [
+  "Веб"
+ ],
+ "ves-python-samoe-aktualnoe-i-ischerpyvayuschee-rukovodstvo": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "razrabotka-algoritmov-inzhenernyy-podhod": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "algoritmy-mashinnogo-obucheniya": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "CS и алгоритмы"
+ ],
+ "patterny-proektirovaniya-unity-populyarnye-shablony-i-luchshie-praktiki-sozdaniya-igr-na-unity-i-c": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Геймдев"
+ ],
+ "solutions-architect-arhitektura-i-proektirovanie-it-resheniy-3-e-izd": [
+  "Библиотека программиста",
+  "Базы данных",
+  "Основы и алгоритмы",
+  "CS и алгоритмы",
+  "Для профессионалов"
+ ],
+ "hypothesis-driven-development-produktovye-gipotezy-v-razrabotke": [
+  "Библиотека программиста",
+  "Управление IT-проектами"
+ ],
+ "osnovy-flutter": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "grokaem-struktury-dannyh": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "matematika-i-arhitektura-glubokogo-obucheniya": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "kontent-dlya-telegram-kak-zavoevat-lyubov-podpischikov-i-vyrastit-prodazhi": [],
+ "razrabotka-s-ii-kak-effektivno-ispolzovat-chatgpt-i-copilot": [
+  "Библиотека программиста",
+  "ML/ИИ"
+ ],
+ "potokovye-bazy-dannyh": [
+  "Базы данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "stroim-llm-s-nulya": [
+  "Библиотека программиста",
+  "ML/ИИ"
+ ],
+ "kotlin-multiplatform-na-praktike": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "promt-inzhiniring-dlya-llm-iskusstvo-postroeniya-prilozheniy-na-osnove-bolshih-yazykovyh-modeley": [
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "sozdaem-dinamicheskie-veb-sayty-s-pomoschyu-php-mysql-javascript-css-i-html5-7-e-izd": [
+  "Веб",
+  "O'Reilly"
+ ],
+ "tehnicheskiy-direktor-effektivnoe-tehnicheskoe-liderstvo": [
+  "Управление IT-проектами",
+  "O'Reilly"
+ ],
+ "net-8-instrumenty-i-navyki-luchshie-praktiki-i-patterny-proektirovaniya-otladki-i-testirovaniya": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "c-concurrency-asinhronnoe-programmirovanie-i-mnogopotochnost": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "portfolio-produktovogo-dizaynera-final-final": [
+  "Библиотека программиста"
+ ],
+ "dizayn-v-masshtabe-sozdanie-ustoychivoy-dizayn-sistemy": [
+  "Для профессионалов"
+ ],
+ "sozdaem-igry-i-izuchaem-c-3-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "izuchaem-skripting-powershell-za-mesyats-zanimayas-odin-chas-v-den-2-e-izd": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "algoritmy-i-struktury-dannyh-dlya-teh-kto-nenavidit-chitat-longridy": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "net-8-prilozheniya-i-servisy-praktika-sozdaniya-proektov-s-ispolzovaniem-blazor-net-maui-grpc-graphql-2-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "razrabotka-frontend-prilozheniy": [
+  "Библиотека программиста"
+ ],
+ "rag-i-generativnyy-ii-sozdaem-sobstvennye-rag-payplayny-s-pomoschyu-llamaindex-deep-lake-i-pinecon": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "izuchaem-kali-linux-proverka-zaschity-testirovanie-na-proniknovenie-etichnyy-haking-2-e-izd": [
+  "ОС",
+  "O'Reilly"
+ ],
+ "moschnyy-python-patterny-i-strategii-sovremennogo-programmirovaniya": [
+  "Языки программирования",
+  "Python",
+  "O'Reilly"
+ ],
+ "grokaem-bezopasnost-veb-prilozheniy": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "razrabotchik-po-putevoditel-po-kariernoy-lestnitse-dlya-buduschih-senorov-tehlidov-i-staffov": [
+  "Библиотека программиста"
+ ],
+ "veb-dizayn-s-nulya-html-css-na-praktike-2-e-izd": [
+  "Библиотека программиста"
+ ],
+ "kafka-streams-v-deystvii-prilozheniya-i-mikroservisy-upravlyaemye-sobytiyami-2-e-izd": [
+  "Для профессионалов"
+ ],
+ "setevoe-programmirovanie-ot-osnov-do-prilozheniy": [
+  "Для профессионалов"
+ ],
+ "raspredelennye-sistemy-patterny-i-paradigmy-dlya-masshtabiruemyh-i-nadezhnyh-sistem-na-osnove-kubernetes-2-e-izd": [
+  "O'Reilly"
+ ],
+ "genezis-iskusstvennyy-intellekt-nadezhda-i-dusha-chelovechestva": [
+  "CS и алгоритмы"
+ ],
+ "igrovoy-balans-tochnaya-nauka-geymdizayna-elektronnaya": [
+  "Разработка ПО",
+  "Геймдев"
+ ],
+ "nastoyaschiy-sre-inzhiniring-nadezhnosti-dlya-spetsialistov-i-organizatsiy": [
+  "Администрирование",
+  "O'Reilly"
+ ],
+ "tvortsy-buduschego-tsifrovoe-iskusstvo-i-iskusstvennyy-intellekt": [],
+ "kotlin-patterny-proektirovaniya-i-luchshie-praktiki-3-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "masshtabiruemye-dannye-vysokonagruzhennye-arhitektury-data-mesh-i-data-fabric-2-e-izd": [
+  "Data science",
+  "O'Reilly"
+ ],
+ "nastoyaschiy-cto-dumay-kak-tehnicheskiy-direktor-audiokniga": [
+  "Библиотека программиста"
+ ],
+ "osint-rukovodstvo-po-sboru-i-analizu-otkrytoy-informatsii-v-internete": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "unreal-engine-5-poshagovyy-kurs-po-sozdaniyu-korotkih-filmov-i-sinematikov": [
+  "Библиотека программиста",
+  "Графика и дизайн"
+ ],
+ "magiya-excel-dlya-neprogrammistov-svodnye-tablitsy-power-query-dashbordy-i-mnogoe-drugoe": [
+  "Библиотека программиста"
+ ],
+ "restful-web-api-patterny-i-praktiki": [
+  "O'Reilly"
+ ],
+ "elasticsearch-dlya-razrabotchikov-indeksirovanie-analiz-poisk-i-agregirovanie-dannyh-2-e-izd": [
+  "Библиотека программиста"
+ ],
+ "zabbix-7-monitoring-it-infrastruktury": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "kontseptsii-dizayna-kak-proektirovat-po-kotoroe-rabotaet": [
+  "Библиотека программиста"
+ ],
+ "geymdizayn-retsepty-uspeha-luchshih-kompyuternyh-igr-ot-super-mario-i-doom-do-assassins-creed-i-dalshe-2": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "head-first-arhitektura-po": [],
+ "sozdanie-frontend-freymvorka-s-nulya": [
+  "Библиотека программиста",
+  "Веб"
+ ],
+ "kotlin-v-deystvii-2-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "html-i-css-dlya-neprogrammistov-sozday-svoe-portfolio-posadochnuyu-stranitsu-i-mnogoe-drugoe": [
+  "Библиотека программиста"
+ ],
+ "effektivnyy-rust-35-konkretnyh-sposobov-uluchshit-kod": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "linux-dlya-razrabotchikov": [
+  "Библиотека программиста",
+  "ОС",
+  "Linux"
+ ],
+ "mashinnoe-obuchenie-osnovy": [
+  "Библиотека программиста",
+  "ML/ИИ",
+  "CS и алгоритмы"
+ ],
+ "excel-s-python-i-r-raskroyte-potentsial-rasshirennoy-obrabotki-i-vizualizatsii-dannyh": [
+  "Библиотека программиста"
+ ],
+ "system-design-perezhit-intervyu": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "blue-fox-vzlom-i-revers-inzhiniring-arm": [
+  "Для профессионалов",
+  "Безопасность"
+ ],
+ "kubernetes-dlya-razrabotchikov": [
+  "ОС",
+  "DevOps",
+  "Для профессионалов"
+ ],
+ "blueprints-vizualnyy-skripting-igr-v-unreal-engine-5-3-e-izd": [
+  "Библиотека программиста"
+ ],
+ "iskusstvo-yunit-testirovaniya-s-primerami-na-javascript-3-e-mezhd-izd": [
+  "Библиотека программиста"
+ ],
+ "promt-inzhiniring-dlya-genai-patterny-nadezhnyh-zaprosov-dlya-kachestvennyh-rezultatov": [
+  "CS и алгоритмы",
+  "O'Reilly"
+ ],
+ "kariera-razrabotchika-staff-kruche-chem-senior": [
+  "O'Reilly"
+ ],
+ "go-idiomy-i-patterny-proektirovaniya-2-e-izd": [
+  "Языки программирования",
+  "Go",
+  "O'Reilly"
+ ],
+ "dizayn-i-povedenie-polzovateley-primenenie-psihologii-i-povedencheskoy-ekonomiki-v-razrabotke-i-ux": [
+  "Для профессионалов",
+  "Графика и дизайн",
+  "O'Reilly"
+ ],
+ "razrabotka-igr-na-unity-4-e-izd": [
+  "Библиотека программиста"
+ ],
+ "vizualizatsiya-dannyh-dlya-professionalov-dizayn-ponyatnyh-diagramm-i-dashbordov": [
+  "Библиотека программиста",
+  "Графика и дизайн"
+ ],
+ "prodakt-menedzhment-na-praktike": [
+  "Управление IT-проектами",
+  "O'Reilly"
+ ],
+ "effektivnyy-typescript-83-sposoba-uluchshit-kod-2-e-izd": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "izuchaem-opentelemetry-sovremennyy-monitoring-sistem": [
+  "Администрирование",
+  "O'Reilly"
+ ],
+ "parsing-s-pomoschyu-python-veb-skraping-v-deystvii-3-e-mezhd-izd": [
+  "Безопасность",
+  "O'Reilly"
+ ],
+ "retsepty-chistogo-koda": [
+  "O'Reilly"
+ ],
+ "razrabotka-prilozheniy-na-baze-gpt-4-i-chatgpt-2-e-izd": [
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "prostoe-obektno-orientirovannoe-proektirovanie-chistyy-i-gibkiy-kod": [
+  "Библиотека программиста"
+ ],
+ "htmlcss-vsya-veb-razrabotka-v-shemah-i-illyustratsiyah": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "matematika-dlya-data-science-upravlyaem-dannymi-s-pomoschyu-lineynoy-algebry-teorii-veroyatnostey-i-statistiki": [
+  "Data science",
+  "CS и алгоритмы",
+  "O'Reilly"
+ ],
+ "vnutrennee-ustroystvo-windows-klyuchevye-komponenty-i-vozmozhnosti-7-e-izd": [
+  "ОС",
+  "Классика CS"
+ ],
+ "linux-karmannyy-spravochnik-4-e-izd-2": [
+  "ОС",
+  "Linux",
+  "O'Reilly"
+ ],
+ "retsepty-typescript": [
+  "Языки программирования",
+  "JavaScript",
+  "O'Reilly"
+ ],
+ "causal-inference-na-python-prichinno-sledstvennye-svyazi-v-it-razrabotke": [
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "izuchaem-python-programmirovanie-igr-vizualizatsiya-dannyh-veb-prilozheniya-3-e-izd-dopolnennoe-i-pererabotannoe": [
+  "Языки программирования",
+  "Python"
+ ],
+ "prozrachnoe-programmnoe-obespechenie-bezopasnost-tsepochek-postavok-po": [
+  "Для профессионалов",
+  "Безопасность"
+ ],
+ "git-kontrol-versiy-3-e-izd-2": [
+  "O'Reilly"
+ ],
+ "patterny-proektirovaniya-javascript": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "JavaScript"
+ ],
+ "testirovanie-programmnogo-obespecheniya-kontekstno-orientirovannyy-podhod": [
+  "Библиотека программиста"
+ ],
+ "algoritmy-i-struktury-dannyh-na-python": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "retsepty-php-dlya-professionalnyh-razrabotchikov": [
+  "Языки программирования",
+  "O'Reilly"
+ ],
+ "bezopasnost-veb-prilozheniy-razvedka-zaschita-napadenie-2-e-izd": [
+  "Безопасность",
+  "O'Reilly"
+ ],
+ "grokaem-konkurentnost": [
+  "Библиотека программиста",
+  "Грокаем"
+ ],
+ "powershell-prakticheskaya-avtomatizatsiya": [
+  "Библиотека программиста",
+  "Администрирование"
+ ],
+ "algoritmy-aha": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "pogovorim-na-python-razrabotka-po-dlya-nachinayuschih": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "data-mesh-v-deystvii": [
+  "Для профессионалов"
+ ],
+ "hypermedia-razrabotka-htmx-i-hyperview": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "grokaem-algoritmy-2-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python",
+  "CS и алгоритмы",
+  "Грокаем"
+ ],
+ "programmirovanie-na-python-s-pomoschyu-github-copilot-i-chatgpt": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "put-1s-razrabotki-ne-spesha-effektivno-i-pravilno-audiokniga": [
+  "Библиотека программиста"
+ ],
+ "fundamentalnyy-podhod-k-programmnoy-arhitekture-patterny-svoystva-proverennye-metody-2": [
+  "Для профессионалов",
+  "O'Reilly"
+ ],
+ "fulstek-testirovanie": [
+  "O'Reilly"
+ ],
+ "realnaya-kriptografiya": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "nechetkoe-sopostavlenie-dannyh-v-sql": [
+  "ОС",
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "tyuning-sistem-eksperimentirovanie-dlya-inzhenerov-ot-ab-testirovaniya-do-bayesovskoy-optimizatsii": [
+  "Библиотека программиста",
+  "Информационные системы"
+ ],
+ "osnovy-dart": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "java-dlya-opytnyh-razrabotchikov-2-e-izdanie": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Java"
+ ],
+ "osnovy-typescript": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "JavaScript"
+ ],
+ "fastapi-veb-razrabotka-na-python": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "laravel-polnoe-rukovodstvo-3-e-izdanie-2": [
+  "Языки программирования",
+  "O'Reilly"
+ ],
+ "mikroservisy-i-api": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "kreativnyy-programmist": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "sam-sebe-testirovschik-poshagovoe-rukovodstvo-po-testirovaniyu-po": [
+  "Библиотека программиста"
+ ],
+ "kiberbezopasnost-glavnye-printsipy": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "retsepty-python-kollektsiya-luchshih-tehnik-programmirovaniya": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "algoritmy-s-nulya": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "roblox-v-deystvii-iskusstvo-razrabotki-igr": [],
+ "c20-dlya-programmistov": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "react-bystro-2-e-mezhd-izd": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "razrabotka-prilozheniy-na-baze-gpt-4-i-chatgpt": [
+  "O'Reilly"
+ ],
+ "chistyy-dizayn-praktika-empiricheskogo-proektirovaniya-po": [
+  "O'Reilly"
+ ],
+ "antipatterny-sql-kak-izbezhat-lovushek-pri-rabote-s-bazami-dannyh": [
+  "Библиотека программиста",
+  "Базы данных"
+ ],
+ "podman-v-deystvii": [
+  "ОС",
+  "DevOps",
+  "Для профессионалов"
+ ],
+ "generativnoe-glubokoe-obuchenie-kak-ne-my-risuem-kartiny-pishem-romany-i-muzyku-2-e-mezhd-izd": [
+  "Основы и алгоритмы",
+  "ML/ИИ",
+  "O'Reilly"
+ ],
+ "grokaem-continuous-delivery": [
+  "Библиотека программиста",
+  "Грокаем"
+ ],
+ "sql-pocket-guide-4-e-izd": [
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "testirovanie-veb-api": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "head-first-izuchaem-html-i-css-2-e-izd": [
+  "Языки программирования"
+ ],
+ "zhemchuzhiny-razrabotki-chemu-my-nauchilis-za-50-let-sozdaniya-po": [
+  "Для профессионалов"
+ ],
+ "dizayn-dlya-razrabotchikov": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Основы и алгоритмы"
+ ],
+ "evolyutsionnaya-arhitektura-avtomatizirovannoe-upravlenie-programmnym-obespecheniem-2-e-mezhd-izd-2": [
+  "O'Reilly"
+ ],
+ "terraform-infrastruktura-na-urovne-koda-3-e-mezhd-izd-2": [
+  "Управление IT-проектами",
+  "O'Reilly"
+ ],
+ "kak-sochinit-videoigru-201-sovet-ot-stsenarista-broken-sword-i-resident-evil": [],
+ "kompyuternye-seti-printsipy-tehnologii-protokoly-yubileynoe-izdanie-dopolnennoe-i-ispravlennoe": [
+  "Администрирование"
+ ],
+ "blender-dizayn-interierov-i-arhitektury": [
+  "Библиотека программиста",
+  "Графика и дизайн"
+ ],
+ "chatgpt-master-podskazok-ili-kak-sozdavat-silnye-promty-dlya-neyroseti": [],
+ "kali-linux-v-deystvii-audit-bezopasnosti-informatsionnyh-sistem-2-e-izdanie": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "software-dynamics-optimizatsiya-proizvoditelnosti-programmnogo-obespecheniya": [
+  "Для профессионалов"
+ ],
+ "osnovy-kompilyatsii-inkrementnyy-podhod": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "CS и алгоритмы"
+ ],
+ "geym-dizayn-kak-sozdayutsya-igry": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Геймдев",
+  "Графика и дизайн"
+ ],
+ "put-1s-razrabotki-ne-spesha-effektivno-i-pravilno": [
+  "Библиотека программиста"
+ ],
+ "python-s-nulya": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "python-dlya-slozhnyh-zadach-nauka-o-dannyh-2-e-mezhd-izd": [
+  "O'Reilly"
+ ],
+ "prodvinutye-algoritmy-i-struktury-dannyh": [
+  "Библиотека программиста"
+ ],
+ "system-design-mashinnoe-obuchenie-podgotovka-k-slozhnomu-intervyu": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "ML/ИИ"
+ ],
+ "kanban-metod-bazovaya-praktika": [
+  "Управление IT-проектами"
+ ],
+ "vysokonagruzhennye-prilozheniya-programmirovanie-masshtabirovanie-podderzhka-2": [
+  "Базы данных",
+  "Data science",
+  "O'Reilly"
+ ],
+ "grokaem-mashinnoe-obuchenie": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "ML/ИИ",
+  "Грокаем"
+ ],
+ "nastoyaschiy-cto-dumay-kak-tehnicheskiy-direktor": [
+  "Библиотека программиста"
+ ],
+ "bpf-professionalnaya-otsenka-proizvoditelnosti": [
+  "Разработка ПО",
+  "Для профессионалов"
+ ],
+ "kiberkrepost-vsestoronnee-rukovodstvo-po-kompyuternoy-bezopasnosti": [
+  "Библиотека программиста",
+  "Безопасность"
+ ],
+ "c-dlya-nachinayuschih-2-e-izd": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "roblox-igray-programmiruy-i-sozdavay-svoi-miry-2-e-izdanie": [],
+ "linux-dlya-setevyh-inzhenerov": [
+  "ОС",
+  "Linux"
+ ],
+ "iskusstvo-agile-razrabotki-teoriya-i-praktika-gibkoy-razrabotki-po": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "grokaem-funktsionalnoe-programmirovanie": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Грокаем"
+ ],
+ "kariera-software-engineering-manager-effektivnoe-upravlenie-komandoy-razrabotchikov-po-audiokniga": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "100-oshibok-go-i-kak-ih-izbezhat": [
+  "Разработка ПО",
+  "Go",
+  "Для профессионалов"
+ ],
+ "golang-dlya-profi-sozdaem-professionalnye-utility-parallelnye-servery-i-servisy-3-e-izd": [
+  "Языки программирования",
+  "Для профессионалов"
+ ],
+ "zdes-dolzhen-byt-tekst-professionalnyy-ux-rayting": [
+  "Для профессионалов",
+  "Графика и дизайн"
+ ],
+ "igrovoy-balans-tochnaya-nauka-geymdizayna": [],
+ "matematika-v-mashinnom-obuchenii": [
+  "Основы и алгоритмы",
+  "ML/ИИ",
+  "Для профессионалов"
+ ],
+ "kariera-software-engineering-manager-effektivnoe-upravlenie-komandoy-razrabotchikov-po": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "python-luchshie-praktiki-i-instrumenty-4-e-izd": [
+  "Python",
+  "Для профессионалов"
+ ],
+ "prikladnye-struktury-dannyh-i-algoritmy-prokachivaem-navyki": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "sovremennyy-podhod-k-programmnoy-arhitekture-slozhnye-kompromissy": [
+  "Разработка ПО",
+  "Для профессионалов",
+  "O'Reilly"
+ ],
+ "head-first-programmirovanie-dlya-android-na-kotlin-3-e-izd": [
+  "Разработка ПО",
+  "Мобильная разработка"
+ ],
+ "data-science-v-deystvii": [
+  "Базы данных",
+  "Data science",
+  "Языки программирования",
+  "Python",
+  "Для профессионалов"
+ ],
+ "modernizatsiya-java-enterprise-oblachnye-tehnologii-dlya-razrabotchikov": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "iskusstvo-chistogo-koda": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "koder-s-ulitsy-pravila-narushat-rekomenduetsya": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "algoritmy-s-primerami-na-python": [
+  "Python",
+  "O'Reilly"
+ ],
+ "grokaem-glubokoe-obuchenie-s-podkrepleniem": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Грокаем"
+ ],
+ "taynaya-zhizn-programm-kak-sozdat-kod-kotoryy-ponravitsya-vashemu-kompyuteru": [
+  "Для профессионалов"
+ ],
+ "put-programmista": [],
+ "python-za-7-dney-kratkiy-kurs-dlya-nachinayuschih": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "readme-surovye-realii-razrabotchikov": [
+  "Библиотека программиста",
+  "Базы данных",
+  "Разработка ПО"
+ ],
+ "react-bystryy-start-2-e-izd": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "linux-komandnaya-stroka-luchshie-praktiki": [
+  "ОС",
+  "O'Reilly"
+ ],
+ "apparatnyy-haking-vzlom-realnyh-veschey": [
+  "Библиотека программиста"
+ ],
+ "python-dlya-data-science": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "sql-server-naladka-i-optimizatsiya-dlya-professionalov": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "informatsionnaya-bezopasnost-natsionalnye-standarty-rossiyskoy-federatsii-3-e-izd-uchebnoe-posobie": [
+  "Информационные системы"
+ ],
+ "python-dlya-finansistov": [
+  "Языки программирования",
+  "Python",
+  "O'Reilly"
+ ],
+ "sozdanie-mikroservisov-2-e-izdanie": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "proizvoditelnost-sistem": [
+  "ОС",
+  "Linux"
+ ],
+ "rekursivnaya-kniga-o-rekursii": [
+  "Библиотека программиста"
+ ],
+ "software-oshibki-i-kompromissy-pri-razrabotke-po": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "javascript-s-nulya-do-profi": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "mysql-po-maksimumu-4-e-izdanie": [
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "idiomy-bash": [
+  "O'Reilly"
+ ],
+ "krasivyy-c-30-glavnyh-pravil-chistogo-bezopasnogo-i-bystrogo-koda": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "kompyuternye-seti-6-e-izd": [
+  "ОС",
+  "Классика CS",
+  "Администрирование"
+ ],
+ "python-dlya-hakerov-netrivialnye-zadachi-i-proekty": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "mashinnoe-obuchenie-portfolio-realnyh-proektov": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "patterny-proektirovaniya-api": [
+  "Библиотека программиста"
+ ],
+ "unity-v-deystvii-multiplatformennaya-razrabotka-na-c-3-e-mezhd-izdanie": [
+  "Разработка ПО",
+  "Геймдев"
+ ],
+ "40-algoritmov-kotorye-dolzhen-znat-kazhdyy-programmist-na-python": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "grokaem-funktsionalnoe-myshlenie": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Грокаем"
+ ],
+ "sovremennaya-programmnaya-inzheneriya-po-v-epohu-edzhayla-i-nepreryvnogo-razvertyvaniya": [
+  "Разработка ПО"
+ ],
+ "algoritmy-na-praktike": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "osnovy-python-dlya-data-science": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "matematicheskie-algoritmy-dlya-programmistov-3d-grafika-mashinnoe-obuchenie-i-modelirovanie-na-python": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "grokaem-algoritmy-iskusctvennogo-intellekta": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Грокаем"
+ ],
+ "nepreryvnoe-razvitie-api-pravilnye-resheniya-v-izmenchivom-tehnologicheskom-landshafte-2-e-izd": [
+  "O'Reilly"
+ ],
+ "pandas-v-deystvii": [
+  "Библиотека программиста",
+  "Базы данных"
+ ],
+ "c-10-i-net-6-sovremennaya-kross-platformennaya-razrabotka": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "testirovanie-javascript": [
+  "Библиотека программиста"
+ ],
+ "glubokoe-obuchenie-na-python-2-e-mezhd-izdanie": [
+  "Основы и алгоритмы"
+ ],
+ "pyat-strok-koda-robert-martin-rekomenduet": [
+  "Библиотека программиста"
+ ],
+ "the-game-console-20-istoriya-konsoley-ot-atari-do-xbox": [],
+ "python-bez-problem-reshaem-realnye-zadachi-i-pishem-poleznyy-kod": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Python"
+ ],
+ "kali-linux-bibliya-pentestera": [
+  "Для профессионалов",
+  "Безопасность"
+ ],
+ "pytorch-osveschaya-glubokoe-obuchenie": [
+  "Языки программирования"
+ ],
+ "kiberdzyutsu-kiberbezopasnost-dlya-sovremennyh-nindzya": [],
+ "algoritmy-neformalno-instruktsiya-dlya-nachinayuschih-pitonistov": [
+  "Библиотека программиста"
+ ],
+ "black-hat-go-programmirovanie-dlya-hakerov-i-pentesterov": [
+  "Библиотека программиста"
+ ],
+ "vnutrennee-ustroystvo-linux-3-e-izd": [
+  "ОС",
+  "Linux"
+ ],
+ "python-chistyy-kod-dlya-prodolzhayuschih": [
+  "Языки программирования",
+  "Python"
+ ],
+ "programmist-fanatik": [
+  "Разработка ПО"
+ ],
+ "veb-dizayn-dlya-nedizaynerov": [
+  "Библиотека программиста"
+ ],
+ "teoreticheskiy-minimum-po-computer-science-seti-kriptografiya-i-data-science": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "izuchaem-arduino-65-proektov-svoimi-rukami-2-e-izdanie": [],
+ "kompyuternaya-grafika-reytreysing-i-rasterizatsiya": [],
+ "etichnyy-haking-prakticheskoe-rukovodstvo-po-vzlomu": [],
+ "svelte-i-sapper-v-deystvii": [
+  "Разработка ПО"
+ ],
+ "bolshaya-kniga-proektov-python": [
+  "Языки программирования",
+  "Python"
+ ],
+ "system-design-podgotovka-k-slozhnomu-intervyu": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "tsifrovaya-gigiena": [],
+ "odnostrochniki-python-lakonichnyy-i-soderzhatelnyy-kod": [
+  "Python"
+ ],
+ "black-hat-python-programmirovanie-dlya-hakerov-i-pentesterov-2-e-izd": [
+  "Библиотека программиста"
+ ],
+ "webassembly-v-deystvii": [
+  "Разработка ПО"
+ ],
+ "klassicheskie-zadachi-computer-science-na-yazyke-java": [
+  "Языки программирования",
+  "Java"
+ ],
+ "effektivnyy-c-professionalnoe-programmirovanie": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "bibliya-linux-10-e-izdanie": [
+  "ОС",
+  "Linux"
+ ],
+ "patterny-razrabotki-na-python-tdd-ddd-i-sobytiyno-orientirovannaya-arhitektura": [
+  "Разработка ПО",
+  "Python"
+ ],
+ "python-naprimer": [
+  "Языки программирования",
+  "Python"
+ ],
+ "javascript-dlya-glubokogo-obucheniya-tensorflowjs": [
+  "Основы и алгоритмы"
+ ],
+ "bezopasno-by-design": [
+  "Разработка ПО"
+ ],
+ "zaschita-dannyh-ot-avtorizatsii-do-audita": [],
+ "powershell-dlya-sisadminov": [
+  "ОС"
+ ],
+ "obrabotka-estestvennogo-yazyka-python-i-spacy-na-praktike": [
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "javascript-s-nulya": [
+  "Разработка ПО",
+  "Языки программирования"
+ ],
+ "roman-s-data-science-kak-monetizirovat-bolshie-dannye": [
+  "Базы данных",
+  "Data science"
+ ],
+ "programmiruy-tipiziruy": [
+  "Разработка ПО"
+ ],
+ "3d-modelirovanie-v-kompas-3d-versiy-v17-i-vyshe-uchebnoe-posobie-dlya-vuzov": [],
+ "roblox-igray-programmiruy-i-sozdavay-svoi-miry": [],
+ "typescript-bystro": [
+  "Разработка ПО",
+  "Языки программирования"
+ ],
+ "kariera-programmista-6-e-izdanie-3": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "c-dlya-profi": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "stilnyy-java-kod-kotoryy-rabotaet-vsegda-i-vezde": [
+  "Разработка ПО"
+ ],
+ "sekrety-python-pro": [
+  "Языки программирования",
+  "Python"
+ ],
+ "dizayn-personazhey-kontsept-art-dlya-komiksov-videoigr-i-animatsii": [],
+ "printsipy-yunit-testirovaniya": [
+  "Разработка ПО"
+ ],
+ "swift-osnovy-razrabotki-prilozheniy-pod-ios-ipados-i-macos-6-e-izd-dopolnennoe-i-pererabotannoe": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Языки программирования"
+ ],
+ "sistema-moduley-java": [
+  "Языки программирования",
+  "Java"
+ ],
+ "izuchaem-c-cherez-programmirovanie-igr-2": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "programmirovanie-na-rust": [
+  "Языки программирования"
+ ],
+ "bayesovskaya-statistika": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "lovushka-dlya-bagov-polevoe-rukovodstvo-po-veb-hakingu": [],
+ "milliony-milliardov-kak-startovat-v-igrovoy-industrii-rabotaya-udalenno-zarabotat-deneg-i-sozdat-igru-svoey-mechty": [],
+ "mificheskiy-cheloveko-mesyats-ili-kak-sozdayutsya-programmnye-sistemy": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "chistyy-agile-osnovy-gibkosti": [
+  "Разработка ПО"
+ ],
+ "patterny-obektno-orientirovannogo-proektirovaniya": [
+  "Разработка ПО"
+ ],
+ "java-concurrency-na-praktike": [
+  "Основы и алгоритмы",
+  "Языки программирования",
+  "Java"
+ ],
+ "arhitektory-intellekta-vsya-pravda-ob-iskusstvennom-intellekte-ot-ego-sozdateley": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "polzovatelskie-istorii-iskusstvo-gibkoy-razrabotki-po-2": [
+  "O'Reilly"
+ ],
+ "agile-protsessy-proekty-kompanii": [],
+ "glubokoe-obuchenie-2": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "swift-osnovy-razrabotki-prilozheniy-pod-ios-ipados-i-macos-5-e-izd-dopolnennoe-i-pererabotannoe": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Мобильная разработка",
+  "Языки программирования"
+ ],
+ "java-dlya-vseh": [
+  "Библиотека программиста",
+  "Языки программирования",
+  "Java"
+ ],
+ "ekstremalnoe-programmirovanie-razrabotka-cherez-testirovanie-2": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "mikroservisy-patterny-razrabotki-i-refaktoringa": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "grokaem-glubokoe-obuchenie": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Грокаем"
+ ],
+ "vy-ne-znaete-js-asinhronnaya-obrabotka-i-optimizatsiya": [],
+ "mashinnoe-obuchenie-dlya-biznesa-i-marketinga": [
+  "Основы и алгоритмы"
+ ],
+ "vy-ne-znaete-js-tipy-i-grammaticheskie-konstruktsii": [],
+ "vy-ne-znaete-js-zamykaniya-i-obekty": [],
+ "mashinnoe-obuchenie-algoritmy-dlya-biznesa": [],
+ "unity-i-c-geymdev-ot-idei-do-realizatsii-2-e-izd": [
+  "Разработка ПО",
+  "Геймдев"
+ ],
+ "sovremennye-operatsionnye-sistemy-4-e-izd-2": [
+  "ОС",
+  "Классика CS"
+ ],
+ "3ds-max-2018-i-2019-dizayn-interierov-i-arhitektury": [],
+ "clr-via-c-programmirovanie-na-platforme-microsoft-net-framework-45-na-yazyke-c-4-e-izd": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "arhitektura-kompyutera-6-e-izd-2": [
+  "Классика CS"
+ ],
+ "rabota-s-bigdata-v-oblakah-obrabotka-i-hranenie-dannyh-s-primerami-iz-microsoft-azure": [
+  "Основы и алгоритмы"
+ ],
+ "kak-pasti-kotov-nastavlenie-dlya-programmistov-rukovodyaschih-drugimi-programmistami-20686e": [],
+ "linux-api-ischerpyvayuschee-rukovodstvo": [
+  "ОС",
+  "Linux"
+ ],
+ "idealnyy-programmist-kak-stat-professionalom-razrabotki-po-3582a4": [
+  "Основы и алгоритмы"
+ ],
+ "teoreticheskiy-minimum-po-big-data-vsyo-chto-nuzhno-znat-o-bolshih-dannyh": [
+  "Основы и алгоритмы"
+ ],
+ "programmirovanie-dlya-detey-ot-osnov-k-sozdaniyu-robotov": [],
+ "chistyy-kod-sozdanie-analiz-i-refaktoring-biblioteka-programmista-45ccca": [],
+ "site-reliability-engineering-nadezhnost-i-bezotkaznost-kak-v-google": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "chistyy-python-tonkosti-programmirovaniya-dlya-profi": [
+  "Языки программирования",
+  "Python"
+ ],
+ "vnutrennee-ustroystvo-windows-7-e-izd": [
+  "ОС",
+  "Классика CS"
+ ],
+ "programmist-fanatik-2": [
+  "Разработка ПО"
+ ],
+ "izuchaem-programmirovanie-na-javascript-2": [],
+ "interfeys-osnovy-proektirovaniya-vzaimodeystviya-4-e-izd-2": [],
+ "haking-iskusstvo-eksployta-2-e-izd": [
+  "Библиотека программиста"
+ ],
+ "teoreticheskiy-minimum-po-computer-science-vse-chto-nuzhno-programmistu-i-razrabotchiku": [
+  "Основы и алгоритмы"
+ ],
+ "swift-osnovy-razrabotki-prilozheniy-pod-ios-i-macos-4-e-izd-dopolnennoe-i-pererabotannoe": [
+  "Основы и алгоритмы",
+  "Языки программирования"
+ ],
+ "chistaya-arhitektura-iskusstvo-razrabotki-programmnogo-obespecheniya": [
+  "Разработка ПО"
+ ],
+ "glubokoe-obuchenie": [],
+ "3ds-max-2018-dizayn-interierov-i-arhitektury": [],
+ "audit-bezopasnosti-informatsionnyh-sistem": [],
+ "swift-osnovy-razrabotki-prilozheniy-pod-ios-i-macos-3-e-izd-dopolnennoe-i-pererabotannoe": [
+  "Языки программирования"
+ ],
+ "3ds-max-2017-dizayn-interierov-i-arhitektury": [],
+ "swift-osnovy-razrabotki-prilozheniy-pod-ios": [
+  "Разработка ПО",
+  "Мобильная разработка",
+  "Языки программирования"
+ ],
+ "noutbuk-i-windows-vizualnyy-samouchitel-2-e-izd": [],
+ "3ds-max-2016-dizayn-interierov-i-arhitektury": [],
+ "release-it-proektirovanie-i-dizayn-po-dlya-teh-komu-ne-vsyo-ravno": [
+  "Разработка ПО"
+ ],
+ "otyavlennyy-programmist-layfhaking-iz-pervyh-ruk": [],
+ "idealnyy-landing-page-sozdaem-prodayuschie-veb-stranitsy": [],
+ "put-analitika-prakticheskoe-rukovodstvo-it-spetsialista-2-e-izdanie": [
+  "Разработка ПО"
+ ],
+ "google-apps-dlya-obrazovaniya": [],
+ "noutbuk-dlya-zhenschin-2": [],
+ "gibkoe-upravlenie-proektami-i-produktami": [],
+ "lidogeneratsiya-marketing-kotoryy-prodaet": [],
+ "fotografiruem-i-obrabatyvaem-snimki-s-pomoschyu-photoshop": [],
+ "autocad-2011-samouchitel-cd-s-videokursom-2": [],
+ "autocad-2009-nachali-2": [],
+ "autocad-2010-uchebnyy-kurs-cd-2": [],
+ "200-luchshih-programm-dlya-interneta-populyarnyy-samouchitel-cd": [],
+ "200-luchshih-programm-dlya-linux-cd": [
+  "Linux"
+ ],
+ "archicad-11-uchebnyy-kurs": [],
+ "autocad-2009-uchebnyy-kurs-cd-2": [],
+ "1000-luchshih-programm-dlya-windows-dvd": [],
+ "autocad-2008-dlya-studenta-populyarnyy-samouchitel-2": [],
+ "autocad-2011-uchebnyy-kurs-cd": [],
+ "autocad-2009-dlya-studenta-samouchitel-2": [],
+ "archicad-nachali": [],
+ "kompyuter-eto-prosto-4-e-izd": [],
+ "gibkoe-upravlenie-it-proektami-rukovodstvo-dlya-nastoyaschih-samuraev": [],
+ "kompyuter-i-windows-8-prosche-prostogo": [
+  "ОС"
+ ],
+ "rails-4-gibkaya-razrabotka-veb-prilozheniy-2": [],
+ "sozdaem-sayty-s-pomoschyu-html-xhtml-i-css-na-100-3-e-izd": [],
+ "ipad-prosche-prostogo": [],
+ "personalnyy-kompyuter-uchitsya-nikogda-ne-pozdno-3-e-izd": [],
+ "html5-i-css3-veb-razrabotka-po-standartam-novogo-pokoleniya-2-e-izd": [],
+ "iphone-prosche-prostogo": [],
+ "internet-prosche-prostogo-2-e-izd": [],
+ "noutbuk-bez-napryaga-izuchaem-windows-8": [],
+ "kompyuter-dlya-zhenschin-tsvetnoy-samouchitel-2": [],
+ "33-luchshie-programmy-dlya-noutbuka-populyarnyy-samouchitel-cd-2": [],
+ "arcon-dizayn-interierov-i-arhitekturnoe-modelirovanie-dlya-vseh-cd-2": [],
+ "kompyuter-dlya-zhenschin-izuchaem-windows-8": [],
+ "smartfony-i-planshety-android-bez-napryaga-rukovodstvo-polzovatelya": [],
+ "it-storii-zapiski-aytishnika-polnotsvetnoe-izdanie": [],
+ "nastroyka-kompyutera-s-pomoschyu-bios-na-100-3-e-izd": [],
+ "mandriva-linux-2008-rukovodstvo-polzovatelya-dvd": [
+  "Linux"
+ ],
+ "osnovy-3d-modelirovaniya-izuchaem-rabotu-v-autocad-kompas-3d-solidworks-inventor": [],
+ "gibkaya-razrabotka-veb-prilozheniy-v-srede-rails-4-e-izd": [],
+ "c-obektno-orientirovannoe-programmirovanie-uchebnyy-kurs": [
+  "C/C++/C#"
+ ],
+ "raskrutka-sekrety-effektivnogo-prodvizheniya-saytov": [],
+ "windows-8-bez-napryaga": [],
+ "sboi-i-oshibki-pk-lechim-kompyuter-svoimi-rukami": [],
+ "defragmentatsiya-mozga-softostroenie-iznutri": [],
+ "spss-15-professionalnyy-statisticheskiy-analiz-dannyh": [],
+ "sovremennyy-samouchitel-raboty-na-kompyutere-v-windows-7-cd-s-videokursom": [],
+ "1c-predpriyatie-82-upravlenie-nebolshoy-firmoy": [],
+ "html-populyarnyy-samouchitel-2-e-izd": [],
+ "ponyatnyy-samouchitel-word-2007": [],
+ "autocad-nachali": [],
+ "vosstanovlenie-dannyh-na-100-cd": [],
+ "excel-2007-dlya-menedzherov-i-ekonomistov-logisticheskie-proizvodstvennye-i-optimizatsionnye-raschety-cd": [],
+ "domashnie-i-ofisnye-seti-pod-vista-i-xp-populyarnyy-samouchitel": [],
+ "sistemnoe-administrirovanie-windows-7-i-windows-server-2008-r2-na-100": [
+  "ОС"
+ ],
+ "autocad-2012-na-100-cd-s-interaktivnoy-trening-sistemoy": [],
+ "windows-7-na-100-2": [],
+ "videosamouchitel-adobe-photoshop-cs3-cd": [],
+ "photoshop-cs6-ponyatnyy-samouchitel": [],
+ "kompyuternaya-grafika-photoshop-cs4-coreldraw-x4-illustrator-cs4-tryuki-i-effekty-dvd-s-videokursom": [],
+ "sozdaem-svoy-sayt-na-wordpress-bystro-legko-i-besplatno": [],
+ "videosamouchitel-photoshop-cs4-cd": [],
+ "mysql-50-biblioteka-programmista": [
+  "Базы данных"
+ ],
+ "html5-i-css3-veb-razrabotka-po-standartam-novogo-pokoleniya": [],
+ "rabota-na-kompyutere-nachali": [],
+ "tonkaya-nastroyka-kompyutera-s-pomoschyu-bios-nachali": [],
+ "luchshie-spetseffekty-photoshop-cs3-dlya-dizaynera-biblioteka-polzovatelya": [],
+ "cms-drupal-sistema-upravleniya-soderzhimym-sayta-cd-s-videokursom": [],
+ "skype-besplatnye-zvonki-cherez-internet-nachali": [],
+ "ms-visual-c-2010-v-srede-net-biblioteka-programmista": [
+  "C/C++/C#"
+ ],
+ "bios-na-100": [
+  "Основы и алгоритмы"
+ ],
+ "izuchaem-windows-vista-nachali": [],
+ "excel-2007-bez-napryaga": [],
+ "windows-vista-bez-napryaga": [],
+ "photoshop-cs4-ponyatnyy-samouchitel": [],
+ "coreldraw-x4-tryuki-i-effekty-cd-s-videokursom": [],
+ "ponyatnyy-samouchitel-internet-3-e-izd": [],
+ "windows-xp-biblioteka-polzovatelya": [],
+ "ponyatnyy-samouchitel-obrascheniya-s-kompyuterom-3-e-izd-2": [],
+ "populyarnyy-samouchitel-raboty-v-internete": [],
+ "coreldraw-x4-nachali": [],
+ "windows-7-prosche-prostogo": [],
+ "intensivnoe-izuchenie-photoshop-cs3-za-14-dney-universalnyy-ekspress-kurs": [],
+ "videosamouchitel-autocad-2009-cd": [],
+ "bios-i-tonkaya-nastroyka-pk-nachali": [
+  "Основы и алгоритмы"
+ ],
+ "coreldraw-x5-na-100": [],
+ "coreldraw-x5-tryuki-i-effekty": [],
+ "photoshop-cs5-na-100": [],
+ "vosstanovlenie-dannyh-2-e-izd": [],
+ "bios-razgon-i-optimizatsiya-kompyutera": [
+  "Основы и алгоритмы"
+ ],
+ "excel-2010-prosche-prostogo": [],
+ "photoshop-multimediynyy-kurs-dvd": [],
+ "windows-7-i-office-2010-kompyuter-dlya-nachinayuschih-zavtra-na-rabotu": [],
+ "html-samouchitel": [],
+ "linux-na-100-dvd": [
+  "Linux"
+ ],
+ "excel-2010-dlya-zhenschin": [],
+ "photoshop-extended-rabotaem-s-3d-video-i-ne-tolko": [],
+ "kompyuternaya-grafika-photoshop-cs5-coreldraw-x5-illustrator-cs5-tryuki-i-effekty": [],
+ "sozdaem-domashniy-fotoalbom-v-photoshop-cd": [],
+ "tonkosti-reestra-windows-vista-tryuki-i-effekty-cd": [],
+ "ustranenie-neispravnostey-i-remont-pk-svoimi-rukami-na-100": [],
+ "windows-7-na-100": [],
+ "ponyatnyy-samouchitel-windows-vista": [],
+ "html-xhtml-i-css-na-100": [],
+ "prodvizhenie-portalov-i-internet-magazinov": [],
+ "sovremennyy-sayt-na-rnr-i-javascript-cd": [],
+ "ponyatnyy-samouchitel-excel-2010": [],
+ "videosamouchitel-autocad-2010-cd": [],
+ "bios-tonkaya-nastroyka-i-razgon-kompyutera": [
+  "Основы и алгоритмы"
+ ],
+ "programmirovanie-v-1spredpriyatie-82": [],
+ "veb-mastering-na-100-html-css-javascript-php-cms-ajax-raskrutka": [],
+ "noutbuk-i-windows-8-prosche-prostogo": [],
+ "php-dlya-nachinayuschih": [],
+ "ofisnyy-kompyuter-dlya-zhenschin-2-e-izd": [],
+ "microsoft-excel-i-word-2013-uchitsya-nikogda-ne-pozdno": [],
+ "1s-upravlenie-torgovley-82-rukovodstvo-polzovatelya-2": [],
+ "noutbuk-dlya-zhenschin-izuchaem-windows-8-2": [],
+ "ponyatnyy-samouchitel-excel-2013-2": [],
+ "sozdaem-svoy-sayt-na-wordpress-bystro-legko-i-besplatno-2-e-izd": [],
+ "ustanovka-nastroyka-i-vosstanovlenie-windows-7-na-100": [],
+ "80-sposobov-povysit-konversiyu-sayta-polnotsvetnoe-izdanie": [],
+ "apple-mac-dlya-fotografa": [],
+ "internet-magazin-bez-pravil": [],
+ "coreldraw-x5-ponyatnyy-samouchitel": [],
+ "sozdaem-landshaftnyy-dizayn-na-kompyutere-cd": [],
+ "programmirovanie-na-c-tryuki-i-effekty-cd": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "videosamouchitel-linux-dvd": [
+  "Linux"
+ ],
+ "besplatnye-zvonki-cherez-internet-skype-i-ne-tolko": [],
+ "arcon-dizayn-interierov-i-arhitekturnoe-modelirovanie-cd": [],
+ "buhgalterskiy-nalogovyy-uchet-i-deloproizvodstvo-na-excel-dlya-malogo-biznesa-cd": [],
+ "ustanovka-nastroyka-i-vosstanovlenie-windows-7-nachali": [
+  "ОС"
+ ],
+ "1s-buhgalteriya-dlya-nachinayuschih": [],
+ "windows-8-nastroyka-rabota-administrirovanie": [],
+ "internet-dlya-zhenschin": [],
+ "fotografiya-v-ekstremalnyh-usloviyah": [],
+ "ubuntu-linux-704-rukovodstvo-polzovatelya-dvd": [
+  "Linux"
+ ],
+ "3ds-max-2008-dlya-dizayna-interierov-cd": [],
+ "dreamweaver-multimediynyy-kurs-cd": [],
+ "fotoprikoly-s-pomoschyu-photoshop": [],
+ "administrirovanie-unix-servera-i-linux-stantsiy": [],
+ "halyava-v-internete-2-e-izd": [],
+ "kniga-veb-programmista-sekrety-professionalnoy-razrabotki-veb-saytov": [],
+ "planirovka-prostranstva-i-dizayn-pomescheniy-na-kompyutere-rabotaem-v-3ds-max-archicad-arcon-dvd": [],
+ "photoshop-cs6": [],
+ "microsoft-sql-server-effektivnaya-rabota": [
+  "Базы данных"
+ ],
+ "bolshaya-kniga-tsifrovoy-fotografii-2-e-izdanie": [],
+ "fotosemka-v-slozhnyh-usloviyah": [],
+ "reestr-windows-7": [
+  "ОС"
+ ],
+ "photoshop-cs6-na-100": [],
+ "kompyuter-dlya-vsey-semi": [],
+ "reestr-windows-7-na-100": [
+  "ОС"
+ ],
+ "archicad-12-uchebnyy-kurs": [],
+ "veb-mastering-na-100": [],
+ "excel-multimediynyy-kurs-dvd": [],
+ "otsifrovyvaem-i-retushiruem-svoy-fotoalbom": [],
+ "microsoft-office-sharepoint-server-2007-organizatsiya-obschego-dostupa-i-sovmestnoy-raboty": [],
+ "office-2007-multimediynyy-kurs-cd": [],
+ "fotomaster-vzglyad-cherez-obektiv-video-master-klass-dvd": [],
+ "microsoft-visio-2007-sozdanie-delovoy-grafiki": [],
+ "v-sotsialnyh-setyah-twitter-140-simvolov-samovyrazheniya": [],
+ "luchshie-aforizmy-o-lyubvi-dlya-twitter-i-sms": [],
+ "ofisnye-resheniya-s-ispolzovaniem-microsoft-excel-2007-i-vba-cd": [],
+ "razgon-i-optimizatsiya-kompyutera-na-100-cd-s-poleznymi-programmami": [],
+ "videosamouchitel-pinnacle-studio-11-cd": [],
+ "halyava-v-internete": [],
+ "1s-bitriks-korporativnyy-portal-povyshenie-effektivnosti-kompanii-2-e-izd-cd": [],
+ "videosamouchitel-adobe-indesign-cs3-cd": [],
+ "videosamouchitel-montazha-domashnego-video-v-adobe-premiere-pro-cs3-cd": [],
+ "ustanovka-i-nastroyka-windows-8-na-100": [],
+ "rabotaem-na-noutbuke-v-windows-7-samouchitel": [],
+ "osnovy-landshaftnogo-proektirovaniya-i-landshaftnoy-arhitektury-uchebnoe-posobie-2-e-izd-ispr-i-dop": [],
+ "tsifrovaya-fotografiya-dlya-zhenschin": [],
+ "kompyuter-i-internet-uchitsya-nikogda-ne-pozdno-polnotsvetnoe-izdanie-2-e-izd": [],
+ "tsvet-upravlenie-tsvetom-tsvetovye-raschety-i-izmereniya": [],
+ "tyuning-windows-7-na-100": [
+  "ОС"
+ ],
+ "patterny-razrabotki-na-python-tdd-ddd-i-sobytiyno-orientirovannaya-arhitektura-2": [
+  "Для профессионалов"
+ ],
+ "vash-soavtor-iskusstvennyy-intellekt-sozdaem-knigu-novogo-pokoleniya": [
+  "CS и алгоритмы"
+ ],
+ "python-i-devops-klyuch-k-avtomatizatsii-linux-2": [
+  "ОС",
+  "Linux",
+  "Языки программирования",
+  "Python",
+  "O'Reilly"
+ ],
+ "raspredelennye-dannye-algoritmy-raboty-sovremennyh-sistem-hraneniya-informatsii": [
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "obektno-orientirovannyy-python-4-e-izd": [
+  "Библиотека программиста"
+ ],
+ "izuchaem-vi-i-vim-ne-prosto-redaktory-8-e-izd": [
+  "Библиотека программиста",
+  "O'Reilly"
+ ],
+ "javascript-retsepty-dlya-razrabotchikov-3-e-izd": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "mikroservisy-ot-arhitektury-do-reliza": [
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "kariera-prodakt-menedzhera-vse-chto-nuzhno-znat-dlya-uspeshnoy-raboty-v-tehnologicheskoy-kompanii": [
+  "Библиотека программиста"
+ ],
+ "robert-martin-rekomenduet-kod-kotoryy-umeschaetsya-v-golove-evristiki-dlya-razrabotchikov": [
+  "Основы и алгоритмы"
+ ],
+ "apache-kafka-potokovaya-obrabotka-i-analiz-dannyh-2-e-izdanie": [
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "obekty-stilnoe-oop": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "kafka-streams-i-ksqldb-dannye-v-realnom-vremeni": [
+  "Библиотека программиста",
+  "Базы данных",
+  "O'Reilly"
+ ],
+ "vnutri-cpython-gid-po-interpretatoru-python": [
+  "Библиотека программиста"
+ ],
+ "kotlin-programmirovanie-dlya-professionalov-2-e-izd": [
+  "Языки программирования"
+ ],
+ "python-ischerpyvayuschee-rukovodstvo": [
+  "Языки программирования",
+  "Python"
+ ],
+ "znakomstvo-s-python": [],
+ "sozdaem-dinamicheskie-veb-sayty-s-pomoschyu-php-mysql-javascript-css-i-html5-6-e-izd": [
+  "O'Reilly"
+ ],
+ "scala-professionalnoe-programmirovanie-5-e-izd": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Языки программирования",
+  "Java"
+ ],
+ "idealnaya-rabota-programmirovanie-bez-prikras": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "go-idiomy-i-patterny-proektirovaniya": [
+  "Разработка ПО",
+  "Языки программирования",
+  "Go",
+  "O'Reilly"
+ ],
+ "sql-bystroe-pogruzhenie": [
+  "Библиотека программиста",
+  "Базы данных"
+ ],
+ "spring-boot-po-bystromu": [
+  "Java",
+  "O'Reilly"
+ ],
+ "masshtabiruemyy-refaktoring-vozvraschaem-kontrol-nad-kodom": [
+  "Базы данных",
+  "Разработка ПО",
+  "O'Reilly"
+ ],
+ "linux-kniga-retseptov-2-e-izd": [
+  "ОС",
+  "Linux",
+  "O'Reilly"
+ ],
+ "open-source-razrabotka-programm-s-otkrytym-ishodnym-kodom": [
+  "Разработка ПО"
+ ],
+ "professionalnyy-benchmark-iskusstvo-izmereniya-proizvoditelnosti": [
+  "Разработка ПО"
+ ],
+ "glubokoe-obuchenie-s-podkrepleniem-teoriya-i-praktika-na-yazyke-python": [
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "c-9-i-net-5-razrabotka-i-optimizatsiya": [
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "vy-poka-esche-ne-znaete-js-oblast-vidimosti-i-zamykaniya-2-e-mezhd-izdanie": [
+  "Разработка ПО",
+  "Языки программирования"
+ ],
+ "gid-po-computer-science-rasshirennoe-izdanie": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "head-first-patterny-proektirovaniya-2-e-izdanie": [
+  "Разработка ПО"
+ ],
+ "c-8-i-net-core-razrabotka-i-optimizatsiya": [
+  "Разработка ПО",
+  "Языки программирования",
+  "C/C++/C#"
+ ],
+ "java-bystryy-start": [
+  "Разработка ПО",
+  "Языки программирования"
+ ],
+ "nadezhnost-neyronnyh-setey-ukreplyaem-ustoychivost-ii-k-obmanu": [
+  "Основы и алгоритмы"
+ ],
+ "glubokoe-obuchenie-legkaya-razrabotka-proektov-na-python": [
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "google-bigquery-vsyo-o-hranilischah-dannyh-analitike-i-mashinnom-obuchenii": [
+  "Основы и алгоритмы"
+ ],
+ "spring-boot-2-luchshie-praktiki-dlya-professionalov": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "mashinnoe-obuchenie-na-r-ekspertnye-tehniki-dlya-prognosticheskogo-analiza": [
+  "Библиотека программиста",
+  "Основы и алгоритмы"
+ ],
+ "razrabotka-s-ispolzovaniem-kvantovyh-kompyuterov": [
+  "Библиотека программиста",
+  "Языки программирования"
+ ],
+ "klassicheskie-zadachi-computer-science-na-yazyke-python": [
+  "Библиотека программиста",
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "glubokoe-obuchenie-s-podkrepleniem-alphago-i-drugie-tehnologii": [
+  "Основы и алгоритмы"
+ ],
+ "obektno-orientirovannoe-programmirovanie-v-s-klassika-computer-science-2": [
+  "Языки программирования",
+  "C/C++/C#",
+  "Классика CS"
+ ],
+ "komandnaya-stroka-linux-polnoe-rukovodstvo-2-e-mezhd-izd": [
+  "ОС",
+  "Linux"
+ ],
+ "put-python-chernyy-poyas-po-razrabotke-masshtabirovaniyu-testirovaniyu-i-razvertyvaniyu": [
+  "Библиотека программиста",
+  "Разработка ПО",
+  "Языки программирования",
+  "Python"
+ ],
+ "glubokoe-obuchenie-na-python": [
+  "Основы и алгоритмы"
+ ],
+ "chatgpt-sdelay-mne-sayt": [
+  "Библиотека программиста",
+  "CS и алгоритмы"
+ ],
+ "data-science-dlya-karierista": [
+  "Библиотека программиста",
+  "Базы данных"
+ ],
+ "mashinnoe-obuchenie-i-tensorflow": [
+  "Библиотека программиста",
+  "Разработка ПО"
+ ],
+ "bpf-dlya-monitoringa-linux": [
+  "Linux"
+ ],
+ "kali-linux-ot-razrabotchikov": [
+  "Linux"
+ ],
+ "vnutrennee-ustroystvo-linux-2": [
+  "Linux"
+ ],
+ "stsenarii-komandnoy-obolochki-linux-os-x-i-unix-2-e-izdanie": [
+  "Linux"
+ ],
+ "oblachnye-arhitektury-razrabotka-ustoychivyh-i-ekonomichnyh-oblachnyh-prilozheniy": [
+  "Базы данных"
+ ],
+ "mysql-po-maksimumu-3-e-izdanie": [
+  "Базы данных"
+ ],
+ "bazy-dannyh-inzhiniring-nadezhnosti": [
+  "Базы данных"
+ ],
+ "bezopasnyy-devops-effektivnaya-ekspluatatsiya-sistem": [
+  "Базы данных",
+  "Информационные системы"
+ ],
+ "masshtabiruemye-dannye-luchshie-shablony-vysokonagruzhennyh-arhitektur": [
+  "Базы данных"
+ ],
+ "pogruzhenie-v-mir-raspredelennyh-dannyh-algoritmy-raboty-sovremennyh-sistem-hraneniya-informatsii": [
+  "Базы данных"
+ ],
+ "sovremennyy-skraping-veb-saytov-s-pomoschyu-python": [
+  "Базы данных",
+  "Python"
+ ],
+ "computer-science-osnovy-programmirovaniya-na-java-oop-algoritmy-i-struktury-dannyh": [
+  "Основы и алгоритмы",
+  "Java"
+ ],
+ "computer-science-osnovy-programmirovaniya-na-java-oop-algoritmy-i-struktury-dannyh-2": [
+  "Основы и алгоритмы",
+  "Java"
+ ],
+ "generativnoe-glubokoe-obuchenie-tvorcheskiy-potentsial-neyronnyh-setey": [
+  "Основы и алгоритмы"
+ ],
+ "gid-po-computer-science-dlya-kazhdogo-programmista": [
+  "Основы и алгоритмы"
+ ],
+ "glubokoe-obuchenie-v-kartinkah-vizualnyy-gid-po-iskusstvennomu-intellektu": [
+  "Основы и алгоритмы"
+ ],
+ "glubokoe-obuchenie-na-r": [
+  "Основы и алгоритмы"
+ ],
+ "grokaem-algoritmy-illyustrirovannoe-posobie-dlya-programmistov-i-lyubopytstvuyuschih-2": [
+  "Основы и алгоритмы"
+ ],
+ "grokaem-tehnologiyu-bitkoin": [
+  "Основы и алгоритмы",
+  "Грокаем"
+ ],
+ "znakomstvo-s-pytorch-glubokoe-obuchenie-pri-obrabotke-estestvennogo-yazyka": [
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "kvantovye-vychisleniya-dlya-nastoyaschih-aytishnikov": [
+  "Основы и алгоритмы"
+ ],
+ "mashinnoe-obuchenie-bez-lishnih-slov": [
+  "Основы и алгоритмы"
+ ],
+ "nepreryvnoe-razvitie-api-pravilnye-resheniya-v-izmenchivom-tehnologicheskom-landshafte": [
+  "Основы и алгоритмы"
+ ],
+ "obrabotka-estestvennogo-yazyka-v-deystvii": [
+  "Основы и алгоритмы",
+  "Python"
+ ],
+ "programmirovanie-bez-durakov": [
+  "Основы и алгоритмы"
+ ],
+ "programmirovanie-kvantovyh-kompyuterov-bazovye-algoritmy-i-primery-koda": [
+  "Основы и алгоритмы"
+ ],
+ "programmiruem-s-pytorch-sozdanie-prilozheniy-glubokogo-obucheniya": [
+  "Основы и алгоритмы"
+ ],
+ "sovershennyy-algoritm-algoritmy-dlya-np-trudnyh-zadach": [
+  "Основы и алгоритмы"
+ ],
+ "sovershennyy-algoritm-zhadnye-algoritmy-i-dinamicheskoe-programmirovanie": [
+  "Основы и алгоритмы"
+ ],
+ "sovershennyy-algoritm-osnovy": [
+  "Основы и алгоритмы"
+ ],
+ "struktury-dannyh-i-algoritmy-v-java-klassika-computers-science-2-e-izd": [
+  "Основы и алгоритмы",
+  "Java"
+ ],
+ "struktury-dannyh-i-algoritmy-v-java-klassika-computers-science-2-e-izd-3": [
+  "Основы и алгоритмы",
+  "Java"
+ ],
+ "tanets-s-kubitami-kak-na-samom-dele-rabotayut-kvantovye-vychisleniya": [
+  "Основы и алгоритмы"
+ ],
+ "evolyutsionnaya-arhitektura-podderzhka-nepreryvnyh-izmeneniy": [
+  "Основы и алгоритмы"
+ ],
+ "android-dlya-razrabotchikov": [
+  "Мобильная разработка"
+ ],
+ "android-programmirovanie-dlya-professionalov-3-e-izdanie": [
+  "Мобильная разработка"
+ ],
+ "razrabotka-igr-pod-android": [
+  "Мобильная разработка"
+ ],
+ "arhitektura-igrovogo-dvizhka-programmirovanie-i-vnutrennee-ustroystvo-tretie-izdanie": [
+  "Геймдев"
+ ],
+ "fulstek-javascript-sekrety-kotorye-dolzhen-znat-kazhdyy-midl": [
+  "Языки программирования",
+  "JavaScript",
+  "O'Reilly"
+ ],
+ "izuchaem-python-programmirovanie-igr-vizualizatsiya-dannyh-veb-prilozheniya-3-e-izd": [
+  "Языки программирования",
+  "Python"
+ ],
+ "programmiruem-na-python-3": [
+  "Python"
+ ],
+ "glubokoe-obuchenie-s-fastai-i-pytorch-minimum-formul-minimum-koda-maksimum-effektivnosti-2": [
+  "Python",
+  "O'Reilly"
+ ],
+ "python-luchshie-praktiki-i-instrumenty": [
+  "Python"
+ ],
+ "python-iskusstvennyy-intellekt-bolshie-dannye-i-oblachnye-vychisleniya": [
+  "Python"
+ ],
+ "python-dlya-slozhnyh-zadach-nauka-o-dannyh-i-mashinnoe-obuchenie-2": [
+  "Python"
+ ],
+ "python-ekspress-kurs-3-e-izd": [
+  "Python"
+ ],
+ "izuchaem-python-programmirovanie-igr-vizualizatsiya-dannyh-veb-prilozheniya-2-e-izd-2": [
+  "Python"
+ ],
+ "veroyatnostnoe-programmirovanie-na-python-bayesovskiy-vyvod-i-algoritmy": [
+  "Python"
+ ],
+ "prostoy-python-sovremennyy-stil-programmirovaniya-2": [
+  "Python"
+ ],
+ "python-i-devops-klyuch-k-avtomatizatsii-linux": [
+  "Python"
+ ],
+ "sovremennyy-yazyk-java-lyambda-vyrazheniya-potoki-i-funktsionalnoe-programmirovanie": [
+  "Java"
+ ],
+ "effektivnyy-java-tyuning-koda-na-java-8-11-i-dalshe-2-e-mezhd-izdanie": [
+  "Java"
+ ],
+ "izuchaem-java-ee-7": [
+  "Java"
+ ],
+ "filosofiya-java-4-e-polnoe-izd-2": [
+  "Java",
+  "Классика CS"
+ ],
+ "elegantnye-obekty-java-edition-2": [
+  "Java"
+ ],
+ "professionalnyy-typescript-razrabotka-masshtabiruemyh-javascript-prilozheniy-2": [
+  "JavaScript",
+  "O'Reilly"
+ ],
+ "head-first-izuchaem-go": [
+  "Go"
+ ],
+ "izuchaem-c-cherez-razrabotku-igr-na-unity-5-e-izdanie": [
+  "C/C++/C#"
+ ],
+ "c-7-i-net-core-kross-platformennaya-razrabotka-dlya-professionalov-3-e-izdanie": [
+  "C/C++/C#"
+ ],
+ "head-first-izuchaem-c-4-e-izd": [
+  "C/C++/C#"
+ ],
+ "kak-programmirovat-na-visual-c-2012-5-e-izd": [
+  "C/C++/C#"
+ ],
+ "izuchaem-c-80-razrabotka-prilozheniy": [
+  "C/C++/C#"
+ ],
+ "ekstremalnyy-ci-parallelizm-oop-i-prodvinutye-vozmozhnosti": [
+  "C/C++/C#"
+ ],
+ "ot-hraneniya-dannyh-k-upravleniyu-informatsiey-2-e-izdanie": [
+  "Информационные системы"
+ ],
+ "bezopasnye-i-nadezhnye-sistemy-luchshie-praktiki-proektirovaniya-vnedreniya-i-obsluzhivaniya-kak-v-google": [
+  "Безопасность"
+ ],
+ "bash-i-kiberbezopasnost-ataka-zaschita-i-analiz-iz-komandnoy-stroki-linux-2": [
+  "Безопасность"
+ ],
+ "catia-v5-geometricheskoe-modelirovanie": [
+  "Графика и дизайн"
+ ],
+ "grokaem-striming": [
+  "Грокаем"
+ ]
+}
