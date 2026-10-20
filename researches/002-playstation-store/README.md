@@ -32,12 +32,12 @@ uv sync
 
 **Базовый запуск:**
 ```bash
-uv run src/get_games.py
+uv run api/get_games.py
 ```
 
 **С параметрами:**
 ```bash
-uv run src/get_games.py --country en-pl
+uv run api/get_games.py --country en-pl
 ```
 
 **Параметры:**
@@ -57,7 +57,7 @@ uv run src/get_games.py --country en-pl
 
 **Обычный режим: сбор новых игр для региона**
 ```bash
-uv run src/get_details.py --country en-pl
+uv run api/get_details.py --country en-pl
 ```
 Обрабатывает только игры, которые ещё не были собраны для указанного региона.
 
@@ -65,7 +65,7 @@ uv run src/get_details.py --country en-pl
 
 **Тестовый режим: первые N игр**
 ```bash
-uv run src/get_details.py --country en-in --test --limit 5
+uv run api/get_details.py --country en-in --test --limit 5
 ```
 Собирает данные только по первым 5 играм (полезно для проверки).
 
@@ -77,7 +77,7 @@ uv run src/get_details.py --country en-in --test --limit 5
 
 **Точечный сбор по одной игре**
 ```bash
-uv run src/get_details.py --country en-pl --product-id UP0006-PPSA19534_00-SANTIAGOSTANDARD
+uv run api/get_details.py --country en-pl --product-id UP0006-PPSA19534_00-SANTIAGOSTANDARD
 ```
 Собирает данные только по одной конкретной игре.
 
@@ -88,7 +88,7 @@ uv run src/get_details.py --country en-pl --product-id UP0006-PPSA19534_00-SANTI
 
 **Повторный сбор только по "битым" записям**
 ```bash
-uv run src/get_details.py --country en-pl --retry-missing
+uv run api/get_details.py --country en-pl --retry-missing
 ```
 Обрабатывает только игры в `ps-store-games-details.csv`, где пусты поля:
 - `voice_langs` (языки озвучки)
@@ -101,7 +101,7 @@ uv run src/get_details.py --country en-pl --retry-missing
 
 **Повторный сбор с увеличенной паузой между запросами**
 ```bash
-uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 1.5
+uv run api/get_details.py --country en-pl --retry-missing --sleep-seconds 1.5
 ```
 Увеличивает паузу между запросами до 1.5 секунд (по умолчанию 0.3 сек).
 
@@ -114,17 +114,17 @@ uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 1.5
 
 **Тестирование точечного сбора с увеличенной паузой:**
 ```bash
-uv run src/get_details.py --country en-pl --product-id EP8204-PPSA28507_00-IREMCOLLECT03PS5 --sleep-seconds 1.2
+uv run api/get_details.py --country en-pl --product-id EP8204-PPSA28507_00-IREMCOLLECT03PS5 --sleep-seconds 1.2
 ```
 
 **Тестирование режима повторного сбора на первых 10 "битых" записях:**
 ```bash
-uv run src/get_details.py --country en-pl --retry-missing --test --limit 10 --sleep-seconds 1.5
+uv run api/get_details.py --country en-pl --retry-missing --test --limit 10 --sleep-seconds 1.5
 ```
 
 **Полный набор параметров для восстановления после блокировки по IP:**
 ```bash
-uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
+uv run api/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
 ```
 
 ---
@@ -186,7 +186,7 @@ uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
 1. **Используйте прокси** (если доступно)
 2. **Увеличьте паузу между запросами:**
    ```bash
-   uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
+   uv run api/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
    ```
 3. **Продолжите сбор в другое время** — данные сохраняются после каждой игры
 
@@ -197,25 +197,25 @@ uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
 ### Сценарий 1: Первичный сбор для нового региона
 ```bash
 # Собираем новый регион с комфортной паузой
-uv run src/get_details.py --country en-pl --sleep-seconds 1.0
+uv run api/get_details.py --country en-pl --sleep-seconds 1.0
 ```
 
 ### Сценарий 2: Восстановление после блокировки
 ```bash
 # Включаем режим повторного сбора с большой паузой
-uv run src/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
+uv run api/get_details.py --country en-pl --retry-missing --sleep-seconds 2.0
 ```
 
 ### Сценарий 3: Быстрое тестирование
 ```bash
 # Тестируем на 3 играх
-uv run src/get_details.py --country en-in --test --limit 3
+uv run api/get_details.py --country en-in --test --limit 3
 ```
 
 ### Сценарий 4: Проверка одной игры
 ```bash
 # Проверяем конкретный ID с большой паузой
-uv run src/get_details.py --product-id UP0006-PPSA19534_00-SANTIAGOSTANDARD --sleep-seconds 1.0
+uv run api/get_details.py --product-id UP0006-PPSA19534_00-SANTIAGOSTANDARD --sleep-seconds 1.0
 ```
 
 ---

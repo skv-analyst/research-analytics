@@ -1,0 +1,28 @@
+[project]
+name = "duma-gov-ru"
+version = "0.1.0"
+description = "Collector for Russian State Duma (8th convocation) roll-call votes via api.duma.gov.ru"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.3",
+    "python-dotenv>=1.0",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/duma_gov_ru"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

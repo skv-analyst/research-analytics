@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0076)http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-vistupleniy-deputata -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="title" content="Стенограммы выступлений депутата">
+<meta name="description" content="API предоставляет программный интерфейс взаимодействия веб-сервисов и приложений с порталом открытых данных">
+<meta name="keywords" content="API, программный интерфейс, портал открытых данных, законопроект, закон, Государственная Дума">
+<meta name="language" content="ru">
+<meta name="robots" content="index, follow">
+    <title>Стенограммы выступлений депутата</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./03-14-Стенограммы выступлений депутата_files/style.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="./03-14-Стенограммы выступлений депутата_files/github.css">
+    <script type="text/javascript" src="./03-14-Стенограммы выступлений депутата_files/jquery-1.4.2.min+all.js"></script>
+<script type="text/javascript" src="./03-14-Стенограммы выступлений депутата_files/script.js"></script>
+<script type="text/javascript" src="./03-14-Стенограммы выступлений депутата_files/highlight.pack.js"></script>
+      <script type="text/javascript">hljs.initHighlightingOnLoad();</script> </head>
+<body><div id="wrap">
+	<div id="head"><a href="http://api.duma.gov.ru/">API официального сайта Государственной Думы</a></div>
+    
+<ul id="menu">
+                  <li><a href="http://api.duma.gov.ru/">Главная страница</a></li>
+                      <li><a href="http://api.duma.gov.ru/datasets">Наборы данных</a></li>
+                <li>API</li>
+      </ul>
+	<div id="main" class="with-left-menu">
+		
+<ul class="left-menu">
+                        <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/osnovnie-svedeniya">Основные сведения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/formati-obmena-dannimi">Форматы обмена данными</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/obrashchenie-k-api">Обращение к API</a>      </li>                            <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/glossariy">Глоссарий</a>      </li>                                              <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/podpiska-na-rezultati-poiska-v-rss-formate">Подписка на результаты поиска в RSS-формате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-php">Использование API в PHP</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-javascript">Использование API в Javascript</a>      </li>                                              <li class=" lm-last" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spravochnik-po-api">Справочник по API</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-tematicheskih-blokov">Список тематических блоков</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-otrasley-zakonodatelstva">Список отраслей законодательства</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-deputatov-gd-i-chlenov-sf">Список депутатов ГД и членов СФ</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-komitetov">Список комитетов</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-regionalnih-organov-vlasti">Список региональных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-federalnih-organov-vlasti">Список федеральных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-stadiy-rassmotreniya">Список стадий рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-instantsiy-rassmotreniya">Список инстанций рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-sozivov-i-sessiy">Список созывов и сессий</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-zakonoproektu">Стенограммы по законопроекту</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-proektu-postanovleniya">Стенограммы по проекту постановления</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-na-zadannuyu-datu">Стенограммы на заданную дату</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/voprosi-zasedaniy-gosudarstvennoy-dumi">Вопросы заседаний государственной думы</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogramma-rassmotreniya-voprosa">Стенограмма рассмотрения вопроса</a>      </li>                            <li class="lm-act" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-vistupleniy-deputata">Стенограммы выступлений депутата</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-deputate">Сведения о депутате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/deputatskie-zaprosi">Депутатские запросы</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/poisk-golosovaniy">Поиск голосований</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-golosovanii">Сведения о голосовании</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/statistika-golosovaniy">Статистика голосований</a>      </li>                                                            </ul>
+
+<div class="wlm-text-col">
+  <h1 class="h1 bord-head">Стенограммы выступлений депутата</h1>
+  <p>Запрос выводит стенограммы выступлений конкретного депутата.</p>
+
+<h3>Запрос</h3>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/transcript</span><span class="constant">Deputy</span>/<span class="symbol">:<span class="identifier">deputy</span></span>.<span class="identifier">xml</span>
+<span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/transcript</span><span class="constant">Deputy</span>/<span class="symbol">:<span class="identifier">deputy</span></span>.<span class="identifier">json</span>
+</code></pre>
+
+<h4>Параметры</h4>
+
+<ul>
+<li><code>deputy</code> - код депутата</li>
+<li><code>dateFrom</code> - минимальная дата заседания</li>
+<li><code>dateTo</code> - максимальная дата заседания</li>
+<li><code>name</code> - название вопроса</li>
+<li><code>page</code> — номер запрашиваемой страницы результатов, по умолчанию равно 1</li>
+<li><code>limit</code> — количество результатов на странице, допустимые значения: 5, 10, <strong>20</strong> (по умолчанию)</li>
+</ul>
+
+<h4>Пример запроса</h4>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/transcript</span><span class="constant">Deputy</span>/<span class="number">99100142</span>.<span class="identifier">xml?</span><span class="identifier">limit</span>=<span class="number">5</span>&amp;<span class="identifier">page</span>=<span class="number">2</span>&amp;<span class="constant">dateFrom</span>=<span class="number">2013</span>-<span class="number">01</span>-<span class="number">01</span>
+</code></pre>
+
+<h3>Результат</h3>
+
+<h4>XML</h4>
+
+<pre><code class="php" data-result="[object Object]">&lt;?xml version=<span class="string">"1.0"</span> <span class="preprocessor">?&gt;</span>
+&lt;result&gt;
+    &lt;name&gt;Жириновский Владимир Вольфович&lt;/name&gt;
+    &lt;pageSize&gt;<span class="number">5</span>&lt;/pageSize&gt;
+    &lt;page&gt;<span class="number">2</span>&lt;/page&gt;
+    &lt;totalCount&gt;<span class="number">8249</span>&lt;/totalCount&gt;
+    &lt;meeting&gt;
+        &lt;date&gt;<span class="number">1994</span>-<span class="number">01</span>-<span class="number">13</span> <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span>&lt;/date&gt;
+        &lt;number&gt;<span class="number">2</span>&lt;/number&gt;
+        &lt;maxNumber&gt;<span class="number">4099</span>&lt;/maxNumber&gt;
+        &lt;question&gt;
+            &lt;name&gt;О Председателе Государственной Думы (выдвижение кандидатур, голосование по кандидатурам на пост Председателя Государственной Думы).&lt;/name&gt;
+            &lt;part&gt;
+                &lt;startLine&gt;<span class="number">2217</span>&lt;/startLine&gt;
+                &lt;endLine&gt;<span class="number">2223</span>&lt;/endLine&gt;
+                &lt;line&gt;ЖИРИНОВСКИЙ В.В. У меня осталась одна минута. На <span class="number">60</span>-ой секунде я скажу свое&lt;/line&gt;
+                &lt;line&gt;окончательное решение... Наше время - началось, ваше время - кончилось. <span class="number">12</span>&lt;/line&gt;
+                &lt;line&gt;декабря избиратели России вам сказали. Вы - главный конкурент, <span class="string">"Выбор России"</span>&lt;/line&gt;
+                &lt;line&gt;- отстаете от меня на <span class="number">30</span> процентов. Весной этого года вы будете отставать на&lt;/line&gt;
+                &lt;line&gt;<span class="number">60</span> процентов. Осенью - на <span class="number">90</span>. И ваш голос окончательно потухнет на всем&lt;/line&gt;
+                &lt;line&gt;политическом небосклоне России. Я это обещаю. (Шум в зале.)&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+            &lt;/part&gt;
+            &lt;part&gt;
+                &lt;startLine&gt;<span class="number">2226</span>&lt;/startLine&gt;
+                &lt;endLine&gt;<span class="number">2234</span>&lt;/endLine&gt;
+                &lt;line&gt;ЖИРИНОВСКИЙ В.В. Время истекло. Учитывая, что парламент не готов, он должен&lt;/line&gt;
+                &lt;line&gt;еще поработать... Это первый класс. Когда вы перейдете в третий класс осенью&lt;/line&gt;
+                &lt;line&gt;<span class="number">1995</span> года и здесь будут сидеть люди - в основном представители нормальных&lt;/line&gt;
+                &lt;line&gt;демократических партий, которые никогда не будут прерывать оратора, ибо &lt;/line&gt;
+                &lt;line&gt;слово... (Выкрики из зала.) Вот так, видите: время, время... (Сильный шум в&lt;/line&gt;
+                &lt;line&gt;зале, выкрики.) Господин Чубайс, Вы это будете показывать в камере в&lt;/line&gt;
+                &lt;line&gt;Лефортово. В камере будете показывать, чтобы Вам дали обед. (Выкрики из &lt;/line&gt;
+                &lt;line&gt;зала.)&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+            &lt;/part&gt;
+            &lt;part&gt;
+                &lt;startLine&gt;<span class="number">2237</span>&lt;/startLine&gt;
+                &lt;endLine&gt;<span class="number">2242</span>&lt;/endLine&gt;
+                &lt;line&gt;ЖИРИНОВСКИЙ В.В. Это насилие - говорить <span class="string">"отключите микрофон"</span>. Видите, что &lt;/line&gt;
+                &lt;line&gt;делают. <span class="string">"Отключите микрофон!"</span> И ходит поп Якунин. Его лишили сана и права&lt;/line&gt;
+                &lt;line&gt;носить крест, а он ходит, оскорбляя русскую церковь.&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+                &lt;line&gt;Я заканчиваю и понимаю, что ... (Сильный шум в зале.)&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+            &lt;/part&gt;
+            &lt;part&gt;
+                &lt;startLine&gt;<span class="number">2245</span>&lt;/startLine&gt;
+                &lt;endLine&gt;<span class="number">2248</span>&lt;/endLine&gt;
+                &lt;line&gt;ЖИРИНОВСКИЙ В.В. ... что это последние дни свободы. Я уже сказал&lt;/line&gt;
+                &lt;line&gt;премьер-министру: пока Чубайс, Козырев, Федоров находятся в Правительстве, &lt;/line&gt;
+                &lt;line&gt;это Правительство не сможет ничего сделать. Я ...&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+            &lt;/part&gt;
+            &lt;part&gt;
+                &lt;startLine&gt;<span class="number">2251</span>&lt;/startLine&gt;
+                &lt;endLine&gt;<span class="number">2252</span>&lt;/endLine&gt;
+                &lt;line&gt;ЖИРИНОВСКИЙ В.В. Я заканчиваю. Я должен сделать резюме. (Сильный шум в зале.)&lt;/line&gt;
+                &lt;line&gt;&lt;/line&gt;
+            &lt;/part&gt;
+        &lt;/question&gt;
+    &lt;/meeting&gt;
+&lt;/result&gt;
+</code></pre>
+
+<h4>JSON</h4>
+
+<pre><code class="php" data-result="[object Object]">{
+    <span class="string">"name"</span>:<span class="string">"Жириновский Владимир Вольфович"</span>,
+    <span class="string">"pageSize"</span>:<span class="number">5</span>,
+    <span class="string">"page"</span>:<span class="number">2</span>,
+    <span class="string">"totalCount"</span>:<span class="number">8249</span>,
+    <span class="string">"meetings"</span>:[{
+        <span class="string">"date"</span>:<span class="string">"1994-01-13 00:00:00"</span>,
+        <span class="string">"number"</span>:<span class="number">2</span>,
+        <span class="string">"maxNumber"</span>:<span class="number">4099</span>,
+        <span class="string">"questions"</span>:[{
+            <span class="string">"name"</span>:<span class="string">"О Председателе Государственной Думы (выдвижение кандидатур, голосование по кандидатурам на пост Председателя Государственной Думы)."</span>,
+            <span class="string">"stage"</span>:<span class="keyword">null</span>,
+            <span class="string">"parts"</span>:[
+                    {
+                        <span class="string">"startLine"</span>:<span class="number">2217</span>,
+                        <span class="string">"endLine"</span>:<span class="number">2223</span>,
+                        <span class="string">"lines"</span>:[
+                                <span class="string">"ЖИРИНОВСКИЙ В.В. У меня осталась одна минута. На 60-ой секунде я скажу свое     "</span>,
+                                <span class="string">"окончательное решение... Наше время - началось, ваше время - кончилось. 12      "</span>,
+                                <span class="string">"декабря избиратели России вам сказали. Вы - главный конкурент, \"Выбор России\"   "</span>,
+                                <span class="string">"- отстаете от меня на 30 процентов. Весной этого года вы будете отставать на    "</span>,
+                                <span class="string">"60 процентов. Осенью - на 90. И ваш голос окончательно потухнет на всем         "</span>,
+                                <span class="string">"политическом небосклоне России. Я это обещаю. (Шум в зале.)                     "</span>,
+                                <span class="string">"                                                                                "</span>],
+                        <span class="string">"votes"</span>:[]
+                    },
+                    {
+                        <span class="string">"startLine"</span>:<span class="number">2226</span>,
+                        <span class="string">"endLine"</span>:<span class="number">2234</span>,
+                        <span class="string">"lines"</span>:[
+                                <span class="string">"ЖИРИНОВСКИЙ В.В. Время истекло. Учитывая, что парламент не готов, он должен     "</span>,
+                                <span class="string">"еще поработать... Это первый класс. Когда вы перейдете в третий класс осенью    "</span>,
+                                <span class="string">"1995 года и здесь будут сидеть люди - в основном представители нормальных       "</span>,
+                                <span class="string">"демократических партий, которые никогда не будут прерывать оратора, ибо         "</span>,
+                                <span class="string">"слово... (Выкрики из зала.) Вот так, видите: время, время... (Сильный шум в     "</span>,
+                                <span class="string">"зале, выкрики.) Господин Чубайс, Вы это будете показывать в камере в            "</span>,
+                                <span class="string">"Лефортово. В камере будете показывать, чтобы Вам дали обед. (Выкрики из         "</span>,
+                                <span class="string">"зала.)                                                                          "</span>,
+                                <span class="string">"                                                                                "</span>],
+                        <span class="string">"votes"</span>:[]
+                    },
+                    {
+                        <span class="string">"startLine"</span>:<span class="number">2237</span>,
+                        <span class="string">"endLine"</span>:<span class="number">2242</span>,
+                        <span class="string">"lines"</span>:[
+                                <span class="string">"ЖИРИНОВСКИЙ В.В. Это насилие - говорить \"отключите микрофон\". Видите, что       "</span>,
+                                <span class="string">"делают. \"Отключите микрофон!\" И ходит поп Якунин. Его лишили сана и права       "</span>,
+                                <span class="string">"носить крест, а он ходит, оскорбляя русскую церковь.                            "</span>,
+                                <span class="string">"                                                                                "</span>,
+                                <span class="string">"Я заканчиваю и понимаю, что ... (Сильный шум в зале.)                           "</span>,
+                                <span class="string">"                                                                                "</span>],
+                        <span class="string">"votes"</span>:[]
+                    },
+                    {
+                        <span class="string">"startLine"</span>:<span class="number">2245</span>,
+                        <span class="string">"endLine"</span>:<span class="number">2248</span>,
+                        <span class="string">"lines"</span>:[
+                                <span class="string">"ЖИРИНОВСКИЙ В.В. ... что это последние дни свободы. Я уже сказал                "</span>,
+                                <span class="string">"премьер-министру: пока Чубайс, Козырев, Федоров находятся в Правительстве,      "</span>,
+                                <span class="string">"это Правительство не сможет ничего сделать. Я ...                               "</span>,
+                                <span class="string">"                                                                                "</span>],
+                        <span class="string">"votes"</span>:[]
+                    },
+                    {
+                        <span class="string">"startLine"</span>:<span class="number">2251</span>,
+                        <span class="string">"endLine"</span>:<span class="number">2252</span>,
+                        <span class="string">"lines"</span>:[
+                                <span class="string">"ЖИРИНОВСКИЙ В.В. Я заканчиваю. Я должен сделать резюме. (Сильный шум в зале.)   "</span>,
+                                <span class="string">"                                                                                "</span>],
+                        <span class="string">"votes"</span>:[]
+                    }]
+        }]
+    }]
+}
+</code></pre>
+
+<h3>Описание формата ответа</h3>
+
+<h4>XML</h4>
+
+<ul>
+<li><code>result</code> — результат выполнения запроса
+
+<ul>
+<li><code>name</code> - ФИО депутата</li>
+<li><code>pageSize</code> - размер страницы</li>
+<li><code>page</code> - номер текущей страницы</li>
+<li><code>totalCount</code> - общее число вопросов</li>
+<li><code>meeting</code> - заседание</li>
+<li><code>date</code> - дата заседания</li>
+<li><code>number</code> - номер заседания</li>
+<li><code>maxNumber</code> - число строк в стенограмме</li>
+<li><code>question</code> - вопрос рассмотрения
+
+<ul>
+<li><code>name</code> - называние вопроса</li>
+<li><code>stage</code> - стадия рассмотрения</li>
+<li><code>part</code> - фрагмент стенограммы</li>
+<li><code>startLine</code> - номер строки начала фрагмента</li>
+<li><code>endLine</code> - номер строки конца фрагмента</li>
+<li><code>line</code> - строка стенограммы</li>
+<li><code>vote</code> - голосование
+
+<ul>
+<li><code>line</code> - номер строки стенограммы</li>
+<li><code>date</code> - дата голосования</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h4>JSON</h4>
+
+<p>Результат представляет собой объект, отражающий сведения о стенограммах выступлений депутата:</p>
+
+<ul>
+<li><code>name</code> - ФИО депутата</li>
+<li><code>pageSize</code> - размер страницы</li>
+<li><code>page</code> - номер текущей страницы</li>
+<li><code>totalCount</code> - общее число вопросов</li>
+<li><code>meetings</code> - массив объектов, отражающих сведения о заседаниях:
+
+<ul>
+<li><code>date</code> - дата заседания</li>
+<li><code>number</code> - номер заседания</li>
+<li><code>maxNumber</code> - число строк в стенограмме</li>
+<li><code>questions</code> - массив объектов, отражающих сведения о вопросах рассмотрения:</li>
+<li><code>name</code> - называние вопроса</li>
+<li><code>stage</code> - стадия рассмотрения</li>
+<li><code>parts</code> - массив объектов, отражающих сведения о фрагментах стенограммы:
+
+<ul>
+<li><code>startLine</code> - номер строки начала фрагмента</li>
+<li><code>endLine</code> - номер строки конца фрагмента</li>
+<li><code>lines</code> - строки стенограммы</li>
+<li><code>votes</code> - массив объектов, отражающих сведения о голосованиях:</li>
+<li><code>line</code> - номер строки стенограммы</li>
+<li><code>date</code> - дата голосования</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+	</div>
+	<div id="foot">
+		<div id="foot-l">© Государственная Дума Федерального Собрания Российской Федерации, 2026</div>
+		<div id="foot-r"><a href="http://www.duma.gov.ru/">www.duma.gov.ru</a></div>
+	</div>
+</div>
+
+</body></html>

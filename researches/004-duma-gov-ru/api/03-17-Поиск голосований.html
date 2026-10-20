@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0061)http://api.duma.gov.ru/pages/dokumentatsiya/poisk-golosovaniy -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="title" content="Поиск голосований">
+<meta name="description" content="API предоставляет программный интерфейс взаимодействия веб-сервисов и приложений с порталом открытых данных">
+<meta name="keywords" content="API, программный интерфейс, портал открытых данных, законопроект, закон, Государственная Дума">
+<meta name="language" content="ru">
+<meta name="robots" content="index, follow">
+    <title>Поиск голосований</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./03-17-Поиск голосований_files/style.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="./03-17-Поиск голосований_files/github.css">
+    <script type="text/javascript" src="./03-17-Поиск голосований_files/jquery-1.4.2.min+all.js"></script>
+<script type="text/javascript" src="./03-17-Поиск голосований_files/script.js"></script>
+<script type="text/javascript" src="./03-17-Поиск голосований_files/highlight.pack.js"></script>
+      <script type="text/javascript">hljs.initHighlightingOnLoad();</script> </head>
+<body><div id="wrap">
+	<div id="head"><a href="http://api.duma.gov.ru/">API официального сайта Государственной Думы</a></div>
+    
+<ul id="menu">
+                  <li><a href="http://api.duma.gov.ru/">Главная страница</a></li>
+                      <li><a href="http://api.duma.gov.ru/datasets">Наборы данных</a></li>
+                <li>API</li>
+      </ul>
+	<div id="main" class="with-left-menu">
+		
+<ul class="left-menu">
+                        <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/osnovnie-svedeniya">Основные сведения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/formati-obmena-dannimi">Форматы обмена данными</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/obrashchenie-k-api">Обращение к API</a>      </li>                            <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/glossariy">Глоссарий</a>      </li>                                              <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/podpiska-na-rezultati-poiska-v-rss-formate">Подписка на результаты поиска в RSS-формате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-php">Использование API в PHP</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-javascript">Использование API в Javascript</a>      </li>                                              <li class=" lm-last" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spravochnik-po-api">Справочник по API</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-tematicheskih-blokov">Список тематических блоков</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-otrasley-zakonodatelstva">Список отраслей законодательства</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-deputatov-gd-i-chlenov-sf">Список депутатов ГД и членов СФ</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-komitetov">Список комитетов</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-regionalnih-organov-vlasti">Список региональных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-federalnih-organov-vlasti">Список федеральных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-stadiy-rassmotreniya">Список стадий рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-instantsiy-rassmotreniya">Список инстанций рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-sozivov-i-sessiy">Список созывов и сессий</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-zakonoproektu">Стенограммы по законопроекту</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-proektu-postanovleniya">Стенограммы по проекту постановления</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-na-zadannuyu-datu">Стенограммы на заданную дату</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/voprosi-zasedaniy-gosudarstvennoy-dumi">Вопросы заседаний государственной думы</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogramma-rassmotreniya-voprosa">Стенограмма рассмотрения вопроса</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-vistupleniy-deputata">Стенограммы выступлений депутата</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-deputate">Сведения о депутате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/deputatskie-zaprosi">Депутатские запросы</a>      </li>                            <li class="lm-act" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/poisk-golosovaniy">Поиск голосований</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-golosovanii">Сведения о голосовании</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/statistika-golosovaniy">Статистика голосований</a>      </li>                                                            </ul>
+
+<div class="wlm-text-col">
+  <h1 class="h1 bord-head">Поиск голосований</h1>
+  <p>Запрос осуществляет поиск по открытым голосованиям Государственной Думы.</p>
+
+<h3>Запрос</h3>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Search</span>.<span class="identifier">xml</span>
+<span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Search</span>.<span class="identifier">json</span>
+</code></pre>
+
+<h4>Параметры</h4>
+
+<ul>
+<li><code>convocation</code> — код созыва, в рамках которого осуществляется поиск</li>
+<li><code>from</code> — минимальная дата заседания</li>
+<li><code>to</code> — максимальная дата заседания</li>
+<li><code>faction</code> — код фракции</li>
+<li><code>deputy</code> — код депутата</li>
+<li><code>number</code> — номер законопроекта</li>
+<li><code>keywords</code> — ключевые слова поиска голосования</li>
+<li><code>page</code> — номер запрашиваемой страницы результатов, по умолчанию равно 1</li>
+<li><code>limit</code> — количество результатов на странице, допустимые значения: 5, 10, <strong>20</strong>, 50, 100 (по умолчанию)</li>
+<li><code>sort</code> — способ сортировки результатов голосования, по умолчанию равно dete_desc, допустимые значения
+
+<ul>
+<li><code>date_asc</code> — по дате (по возрастанию)</li>
+<li><code>date_desc</code> — по дате по убыванию, при этом в рамках одного дня по времени по возрастанию</li>
+<li><code>date_desc_true</code> — по дате (по убыванию)</li>
+<li><code>result_asc</code> — по результату (по возрастанию)</li>
+<li><code>result_desc</code> — по результату (по убыванию)</li>
+</ul></li>
+</ul>
+
+<p>Если указаны одновременно параметры <code>faction</code> и <code>deputy</code>, то приоритетом пользуется параметр <code>deputy</code>.</p>
+
+<h4>Пример запроса</h4>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Search</span>.<span class="identifier">xml</span>
+</code></pre>
+
+<h3>Результат</h3>
+
+<h4>XML</h4>
+
+<p><em>Пример 1: поиск без указания фракции и депутата</em></p>
+
+<pre><code class="php" data-result="[object Object]">&lt;?xml version=<span class="string">"1.0"</span> <span class="preprocessor">?&gt;</span>
+&lt;result&gt;
+    &lt;totalCount&gt;<span class="number">5922</span>&lt;/totalCount&gt;
+    &lt;page&gt;<span class="number">1</span>&lt;/page&gt;
+    &lt;pageSize&gt;<span class="number">5</span>&lt;/pageSize&gt;
+    &lt;wording&gt;Результаты голосования по вопросам, вынесенным для открытого голосования за период с <span class="number">21.12</span>.<span class="number">2011</span> по текущую дату.
+    &lt;/wording&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83475</span>&lt;/id&gt;
+        &lt;subject&gt;(за основу) О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">01</span>:<span class="number">27</span>&lt;/voteDate&gt;
+        &lt;voteCount&gt;<span class="number">368</span>&lt;/voteCount&gt;
+        &lt;forCount&gt;<span class="number">368</span>&lt;/forCount&gt;
+        &lt;againstCount&gt;<span class="number">0</span>&lt;/againstCount&gt;
+        &lt;abstainCount&gt;<span class="number">0</span>&lt;/abstainCount&gt;
+        &lt;absentCount&gt;<span class="number">82</span>&lt;/absentCount&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">true</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83476</span>&lt;/id&gt;
+        &lt;subject&gt;Предложение деп. Нилова О.А О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">44</span>:<span class="number">17</span>&lt;/voteDate&gt;
+        &lt;voteCount&gt;<span class="number">175</span>&lt;/voteCount&gt;
+        &lt;forCount&gt;<span class="number">175</span>&lt;/forCount&gt;
+        &lt;againstCount&gt;<span class="number">0</span>&lt;/againstCount&gt;
+        &lt;abstainCount&gt;<span class="number">0</span>&lt;/abstainCount&gt;
+        &lt;absentCount&gt;<span class="number">275</span>&lt;/absentCount&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83477</span>&lt;/id&gt;
+        &lt;subject&gt;(в целом) О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">44</span>:<span class="number">52</span>&lt;/voteDate&gt;
+        &lt;voteCount&gt;<span class="number">370</span>&lt;/voteCount&gt;
+        &lt;forCount&gt;<span class="number">370</span>&lt;/forCount&gt;
+        &lt;againstCount&gt;<span class="number">0</span>&lt;/againstCount&gt;
+        &lt;abstainCount&gt;<span class="number">0</span>&lt;/abstainCount&gt;
+        &lt;absentCount&gt;<span class="number">80</span>&lt;/absentCount&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">true</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83478</span>&lt;/id&gt;
+        &lt;subject&gt;(<span class="number">2</span> чтение таб. <span class="number">2</span> отклонённые поправки, поправка №<span class="number">1</span>) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации № <span class="number">352924</span>-<span class="number">6</span> <span class="string">"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации"</span>&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">52</span>:<span class="number">32</span>&lt;/voteDate&gt;
+        &lt;voteCount&gt;<span class="number">381</span>&lt;/voteCount&gt;
+        &lt;forCount&gt;<span class="number">192</span>&lt;/forCount&gt;
+        &lt;againstCount&gt;<span class="number">188</span>&lt;/againstCount&gt;
+        &lt;abstainCount&gt;<span class="number">1</span>&lt;/abstainCount&gt;
+        &lt;absentCount&gt;<span class="number">69</span>&lt;/absentCount&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83479</span>&lt;/id&gt;
+        &lt;subject&gt;(<span class="number">2</span> чтение таб. <span class="number">2</span> отклонённые поправки, поправка №<span class="number">2</span>) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации № <span class="number">352924</span>-<span class="number">6</span> <span class="string">"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации"</span>&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">54</span>:<span class="number">32</span>&lt;/voteDate&gt;
+        &lt;voteCount&gt;<span class="number">372</span>&lt;/voteCount&gt;
+        &lt;forCount&gt;<span class="number">193</span>&lt;/forCount&gt;
+        &lt;againstCount&gt;<span class="number">178</span>&lt;/againstCount&gt;
+        &lt;abstainCount&gt;<span class="number">1</span>&lt;/abstainCount&gt;
+        &lt;absentCount&gt;<span class="number">78</span>&lt;/absentCount&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+&lt;/result&gt;
+</code></pre>
+
+<p><em>Пример 2: поиск по депутату</em></p>
+
+<pre><code class="php" data-result="[object Object]">&lt;?xml version=<span class="string">"1.0"</span> <span class="preprocessor">?&gt;</span>
+&lt;result&gt;
+    &lt;totalCount&gt;<span class="number">5921</span>&lt;/totalCount&gt;
+    &lt;page&gt;<span class="number">1</span>&lt;/page&gt;
+    &lt;pageSize&gt;<span class="number">5</span>&lt;/pageSize&gt;
+    &lt;wording&gt;Результаты голосования депутата Агаев Ваха Абуевич по вопросам, вынесенным для открытого голосования за период с <span class="number">21.12</span>.<span class="number">2011</span> по текущую дату.&lt;/wording&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83475</span>&lt;/id&gt;
+        &lt;subject&gt; (за основу) О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года
+        &lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">01</span>:<span class="number">27</span>&lt;/voteDate&gt;
+        &lt;personResult&gt;<span class="keyword">for</span>&lt;/personResult&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">true</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83476</span>&lt;/id&gt;
+        &lt;subject&gt;Предложение деп. Нилова О.А О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">44</span>:<span class="number">17</span>&lt;/voteDate&gt;
+        &lt;personResult&gt;absent&lt;/personResult&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83477</span>&lt;/id&gt;
+        &lt;subject&gt;(в целом) О проекте порядка работы Государственной Думы на <span class="number">20</span> ноября <span class="number">2013</span> года&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">44</span>:<span class="number">52</span>&lt;/voteDate&gt;
+        &lt;personResult&gt;<span class="keyword">for</span>&lt;/personResult&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">true</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83478</span>&lt;/id&gt;
+        &lt;subject&gt;(<span class="number">2</span> чтение таб. <span class="number">2</span> отклонённые поправки, поправка №<span class="number">1</span>) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации № <span class="number">352924</span>-<span class="number">6</span> <span class="string">"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации"</span>&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">52</span>:<span class="number">32</span>&lt;/voteDate&gt;
+        &lt;personResult&gt;absent&lt;/personResult&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+    &lt;vote&gt;
+        &lt;id&gt;<span class="number">83479</span>&lt;/id&gt;
+        &lt;subject&gt;(<span class="number">2</span> чтение таб. <span class="number">2</span> отклонённые поправки, поправка №<span class="number">2</span>) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации № <span class="number">352924</span>-<span class="number">6</span> <span class="string">"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации"</span>&lt;/subject&gt;
+        &lt;voteDate&gt;<span class="number">2013</span>-<span class="number">11</span>-<span class="number">20</span> <span class="number">10</span>:<span class="number">54</span>:<span class="number">32</span>&lt;/voteDate&gt;
+        &lt;personResult&gt;absent&lt;/personResult&gt;
+        &lt;resultType&gt;количественное&lt;/resultType&gt;
+        &lt;result&gt;<span class="keyword">false</span>&lt;/result&gt;
+    &lt;/vote&gt;
+&lt;/result&gt;
+</code></pre>
+
+<h4>JSON</h4>
+
+<p><em>Пример 1: поиск без указания фракции и депутата</em></p>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]">{
+    <span class="string">"totalCount"</span><span class="symbol">:<span class="string">"5922"</span></span>,
+    <span class="string">"page"</span><span class="symbol">:<span class="string">"1"</span></span>,
+    <span class="string">"pageSize"</span><span class="symbol">:<span class="string">"5"</span></span>,
+    <span class="string">"wording"</span><span class="symbol">:<span class="string">"Результаты голосования по вопросам, вынесенным для открытого голосования за период с 21.12.2011 по текущую дату."</span></span>,
+    <span class="string">"votes"</span><span class="symbol">:</span>[{
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83475</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(за основу) О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:01:27"</span></span>,
+        <span class="string">"voteCount"</span><span class="symbol">:</span><span class="number">368</span>,
+        <span class="string">"forCount"</span><span class="symbol">:</span><span class="number">368</span>,
+        <span class="string">"againstCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"abstainCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"absentCount"</span><span class="symbol">:</span><span class="number">82</span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">true</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83476</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"Предложение деп. Нилова О.А О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:44:17"</span></span>,
+        <span class="string">"voteCount"</span><span class="symbol">:</span><span class="number">175</span>,
+        <span class="string">"forCount"</span><span class="symbol">:</span><span class="number">175</span>,
+        <span class="string">"againstCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"abstainCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"absentCount"</span><span class="symbol">:</span><span class="number">275</span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83477</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(в целом) О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:44:52"</span></span>,
+        <span class="string">"voteCount"</span><span class="symbol">:</span><span class="number">370</span>,
+        <span class="string">"forCount"</span><span class="symbol">:</span><span class="number">370</span>,
+        <span class="string">"againstCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"abstainCount"</span><span class="symbol">:</span><span class="number">0</span>,
+        <span class="string">"absentCount"</span><span class="symbol">:</span><span class="number">80</span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">true</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83478</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(2 чтение таб. 2 отклонённые поправки, поправка \u21161) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации \u2116 352924-6 \"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации\""</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:52:32"</span></span>,
+        <span class="string">"voteCount"</span><span class="symbol">:</span><span class="number">381</span>,
+        <span class="string">"forCount"</span><span class="symbol">:</span><span class="number">192</span>,
+        <span class="string">"againstCount"</span><span class="symbol">:</span><span class="number">188</span>,
+        <span class="string">"abstainCount"</span><span class="symbol">:</span><span class="number">1</span>,
+        <span class="string">"absentCount"</span><span class="symbol">:</span><span class="number">69</span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83479</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(2 чтение таб. 2 отклонённые поправки, поправка \u21162) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации \u2116 352924-6 \"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации\""</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:54:32"</span></span>,
+        <span class="string">"voteCount"</span><span class="symbol">:</span><span class="number">372</span>,
+        <span class="string">"forCount"</span><span class="symbol">:</span><span class="number">193</span>,
+        <span class="string">"againstCount"</span><span class="symbol">:</span><span class="number">178</span>,
+        <span class="string">"abstainCount"</span><span class="symbol">:</span><span class="number">1</span>,
+        <span class="string">"absentCount"</span><span class="symbol">:</span><span class="number">78</span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    }]
+}
+</code></pre>
+
+<p><em>Пример 2: поиск по депутату</em></p>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]">{
+    <span class="string">"totalCount"</span><span class="symbol">:<span class="string">"5921"</span></span>,
+    <span class="string">"page"</span><span class="symbol">:<span class="string">"1"</span></span>,
+    <span class="string">"pageSize"</span><span class="symbol">:<span class="string">"5"</span></span>,
+    <span class="string">"wording"</span><span class="symbol">:<span class="string">"Результаты голосования депутата Агаев Ваха Абуевич по вопросам, вынесенным для открытого голосования за период с 21.12.2011 по текущую дату."</span></span>,
+    <span class="string">"votes"</span><span class="symbol">:</span>[{
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83475</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(за основу) О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:01:27"</span></span>,
+        <span class="string">"personResult"</span><span class="symbol">:<span class="string">"for"</span></span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">true</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83476</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"Предложение деп. Нилова О.А О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:44:17"</span></span>,
+        <span class="string">"personResult"</span><span class="symbol">:<span class="string">"absent"</span></span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83477</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(в целом) О проекте порядка работы Государственной Думы на 20 ноября 2013 года"</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:44:52"</span></span>,
+        <span class="string">"personResult"</span><span class="symbol">:<span class="string">"for"</span></span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">true</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83478</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(2 чтение таб. 2 отклонённые поправки, поправка \u21161) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации \u2116 352924-6 \"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации\""</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:52:32"</span></span>,
+        <span class="string">"personResult"</span><span class="symbol">:<span class="string">"absent"</span></span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    },
+    {
+        <span class="string">"id"</span><span class="symbol">:</span><span class="number">83479</span>,
+        <span class="string">"subject"</span><span class="symbol">:<span class="string">"(2 чтение таб. 2 отклонённые поправки, поправка \u21162) О проекте закона Российской Федерации о поправке к Конституции Российской Федерации \u2116 352924-6 \"О Верховном Суде Российской Федерации и прокуратуре Российской Федерации\""</span></span>,
+        <span class="string">"voteDate"</span><span class="symbol">:<span class="string">"2013-11-20 10:54:32"</span></span>,
+        <span class="string">"personResult"</span><span class="symbol">:<span class="string">"absent"</span></span>,
+        <span class="string">"resultType"</span><span class="symbol">:<span class="string">"количественное"</span></span>,
+        <span class="string">"result"</span><span class="symbol">:<span class="identifier"><span class="keyword">false</span></span></span>
+    }]
+}
+</code></pre>
+
+<h3>Описание формата ответа</h3>
+
+<h4>XML</h4>
+
+<ul>
+<li><code>result</code> — результат выполнения запроса
+
+<ul>
+<li><code>totalCount</code> - общее число вопросов</li>
+<li><code>page</code> - номер текущей страницы</li>
+<li><code>pageSize</code> - размер страницы</li>
+<li><code>wording</code> - формулировка поискового запроса</li>
+<li><code>vote</code> - голосование</li>
+<li><code>id</code> -  индентификатор голосования</li>
+<li><code>subject</code> - номер заседания</li>
+<li><code>voteDate</code> - дата голосования</li>
+<li><code>personResult</code> - результат голсования искомого депутата (указывается только при поиске по депутату; <code>for</code> - "за", <code>against</code> - "против", <code>abstain</code> - "воздержался", <code>absent</code> - не голосовал)</li>
+<li><code>voteCount</code> - число проголосовавших депутатов (при поиске по фракции - число депутатов во фракции, не указывается при поиске по депутату)</li>
+<li><code>forCount</code> - число депутатов, проголосовавших "за" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>againstCount</code> - число депутатов, проголосовавших "против" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>abstainCount</code> - число депутатов, проголосовавших "воздержался" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>absentCount</code> - число непроголосовавших депутатов (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>resultType</code> - тип результата голосования (<code>количественное</code>, <code>рейтинговое</code>, <code>качественное</code>, <code>альтернативное</code>)</li>
+<li><code>result</code> - результат голосования (<code>true</code> - принято, <code>false</code> - не принято)</li>
+</ul></li>
+</ul>
+
+<h4>JSON</h4>
+
+<p>Результат представляет собой объект, содержащий результаты выполнения запроса:</p>
+
+<ul>
+<li><code>totalCount</code> - общее число вопросов</li>
+<li><code>page</code> - номер текущей страницы</li>
+<li><code>pageSize</code> - размер страницы</li>
+<li><code>wording</code> - формулировка поискового запроса</li>
+<li><code>votes</code> - массив объектов, содержащих информацию о найденных голосованиях:
+
+<ul>
+<li><code>id</code> -  индентификатор голосования</li>
+<li><code>subject</code> - номер заседания</li>
+<li><code>voteDate</code> - дата голосования</li>
+<li><code>personResult</code> - результат голсования искомого депутата (указывается только при поиске по депутату; <code>for</code> - "за", <code>against</code> - "против", <code>abstain</code> - "воздержался", <code>absent</code> - не голосовал)</li>
+<li><code>voteCount</code> - число проголосовавших депутатов (при поиске по фракции - число депутатов во фракции, не указывается при поиске по депутату)</li>
+<li><code>forCount</code> - число депутатов, проголосовавших "за" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>againstCount</code> - число депутатов, проголосовавших "против" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>abstainCount</code> - число депутатов, проголосовавших "воздержался" (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>absentCount</code> - число непроголосовавших депутатов (при поиске по фракции - в рамках фракции, не указывается при поиске по депутату)</li>
+<li><code>resultType</code> - тип результата голосования (<code>количественное</code>, <code>рейтинговое</code>, <code>качественное</code>, <code>альтернативное</code>)</li>
+<li><code>result</code> - результат голосования (<code>true</code> - принято, <code>false</code> - не принято)</li>
+</ul></li>
+</ul>
+</div>
+	</div>
+	<div id="foot">
+		<div id="foot-l">© Государственная Дума Федерального Собрания Российской Федерации, 2026</div>
+		<div id="foot-r"><a href="http://www.duma.gov.ru/">www.duma.gov.ru</a></div>
+	</div>
+</div>
+
+</body></html>

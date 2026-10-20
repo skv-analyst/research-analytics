@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0066)http://api.duma.gov.ru/pages/dokumentatsiya/statistika-golosovaniy -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="title" content="Статистика голосований">
+<meta name="description" content="API предоставляет программный интерфейс взаимодействия веб-сервисов и приложений с порталом открытых данных">
+<meta name="keywords" content="API, программный интерфейс, портал открытых данных, законопроект, закон, Государственная Дума">
+<meta name="language" content="ru">
+<meta name="robots" content="index, follow">
+    <title>Статистика голосований</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./03-19-Статистика голосований_files/style.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie6.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="./03-19-Статистика голосований_files/github.css">
+    <script type="text/javascript" src="./03-19-Статистика голосований_files/jquery-1.4.2.min+all.js"></script>
+<script type="text/javascript" src="./03-19-Статистика голосований_files/script.js"></script>
+<script type="text/javascript" src="./03-19-Статистика голосований_files/highlight.pack.js"></script>
+      <script type="text/javascript">hljs.initHighlightingOnLoad();</script> </head>
+<body><div id="wrap">
+	<div id="head"><a href="http://api.duma.gov.ru/">API официального сайта Государственной Думы</a></div>
+    
+<ul id="menu">
+                  <li><a href="http://api.duma.gov.ru/">Главная страница</a></li>
+                      <li><a href="http://api.duma.gov.ru/datasets">Наборы данных</a></li>
+                <li>API</li>
+      </ul>
+	<div id="main" class="with-left-menu">
+		
+<ul class="left-menu">
+                        <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/osnovnie-svedeniya">Основные сведения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/formati-obmena-dannimi">Форматы обмена данными</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/obrashchenie-k-api">Обращение к API</a>      </li>                            <li class="" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/glossariy">Глоссарий</a>      </li>                                              <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/podpiska-na-rezultati-poiska-v-rss-formate">Подписка на результаты поиска в RSS-формате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-php">Использование API в PHP</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/ispolzovanie-api-ais-zakonoproekt-v-javascript">Использование API в Javascript</a>      </li>                                              <li class=" lm-last" style="font-weight: 600;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spravochnik-po-api">Справочник по API</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-tematicheskih-blokov">Список тематических блоков</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-otrasley-zakonodatelstva">Список отраслей законодательства</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-deputatov-gd-i-chlenov-sf">Список депутатов ГД и членов СФ</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-komitetov">Список комитетов</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-regionalnih-organov-vlasti">Список региональных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-federalnih-organov-vlasti">Список федеральных органов власти</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-stadiy-rassmotreniya">Список стадий рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-instantsiy-rassmotreniya">Список инстанций рассмотрения</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/spisok-sozivov-i-sessiy">Список созывов и сессий</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-zakonoproektu">Стенограммы по законопроекту</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-po-proektu-postanovleniya">Стенограммы по проекту постановления</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-na-zadannuyu-datu">Стенограммы на заданную дату</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/voprosi-zasedaniy-gosudarstvennoy-dumi">Вопросы заседаний государственной думы</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogramma-rassmotreniya-voprosa">Стенограмма рассмотрения вопроса</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/stenogrammi-vistupleniy-deputata">Стенограммы выступлений депутата</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-deputate">Сведения о депутате</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/deputatskie-zaprosi">Депутатские запросы</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/poisk-golosovaniy">Поиск голосований</a>      </li>                            <li class="" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/svedeniya-o-golosovanii">Сведения о голосовании</a>      </li>                            <li class="lm-act" style="margin-left: 20px;">      <a href="http://api.duma.gov.ru/pages/dokumentatsiya/statistika-golosovaniy">Статистика голосований</a>      </li>                                                            </ul>
+
+<div class="wlm-text-col">
+  <h1 class="h1 bord-head">Статистика голосований</h1>
+  <p>Запрос выводит статистику открытых голосований для конкретной фракции или конкретного депутата Государственной думы за заданный временной период.</p>
+
+<h3>Запрос</h3>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Stats</span>.<span class="identifier">xml</span>
+<span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Stats</span>.<span class="identifier">json</span>
+</code></pre>
+
+<h4>Параметры</h4>
+
+<ul>
+<li><code>convocation</code> - код созыва, в рамках которого осуществляется поиск</li>
+<li><code>from</code> - минимальная дата заседания</li>
+<li><code>to</code> - максимальная дата заседания</li>
+<li><code>faction</code> - код фракции</li>
+<li><code>deputy</code> - код депутата</li>
+</ul>
+
+<p>Обязательно должен быть указан, либо код фракции, либо код депутата</p>
+
+<h4>Пример запроса</h4>
+
+<pre><code class="ruby" data-result="[object Object]" data-second_best="[object Object]"><span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Stats</span>.<span class="identifier">xml?</span><span class="identifier">faction</span>=<span class="number">72100005</span>
+<span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/api.duma.gov.ru/api</span><span class="regexp">/:token/vote</span><span class="constant">Stats</span>.<span class="identifier">xml?</span><span class="identifier">deputy</span>=<span class="number">99111015</span>
+</code></pre>
+
+<h3>Результат</h3>
+
+<h4>XML</h4>
+
+<p><em>Пример 1: статистика по фракции</em></p>
+
+<pre><code class="php" data-result="[object Object]">&lt;?xml version=<span class="string">"1.0"</span> <span class="preprocessor">?&gt;</span>
+&lt;result&gt;
+    &lt;faction&gt;
+        &lt;registrationCount&gt;<span class="number">7256</span>&lt;/registrationCount&gt;
+        &lt;registeredCount&gt;<span class="number">7183</span>&lt;/registeredCount&gt;
+        &lt;voteCount&gt;<span class="number">168720</span>&lt;/voteCount&gt;
+        &lt;nonVoteCount&gt;<span class="number">161267</span>&lt;/nonVoteCount&gt;
+        &lt;totalVoteCount&gt;<span class="number">5921</span>&lt;/totalVoteCount&gt;
+        &lt;totalRegistrationCount&gt;<span class="number">130</span>&lt;/totalRegistrationCount&gt;
+    &lt;/faction&gt;
+    &lt;factionDeputy&gt;
+        &lt;code&gt;<span class="number">99111774</span>&lt;/code&gt;
+        &lt;family&gt;Абрамов&lt;/family&gt;
+        &lt;name&gt;Иван&lt;/name&gt;
+        &lt;patronymic&gt;Николаевич&lt;/patronymic&gt;
+        &lt;registrationCount&gt;<span class="number">130</span>&lt;/registrationCount&gt;
+        &lt;registeredCount&gt;<span class="number">129</span>&lt;/registeredCount&gt;
+        &lt;voteCount&gt;<span class="number">3050</span>&lt;/voteCount&gt;
+        &lt;nonVoteCount&gt;<span class="number">2870</span>&lt;/nonVoteCount&gt;
+    &lt;/factionDeputy&gt;
+    &lt;factionDeputy&gt;
+        &lt;code&gt;<span class="number">99111780</span>&lt;/code&gt;
+        &lt;family&gt;Ананских&lt;/family&gt;
+        &lt;name&gt;Игорь&lt;/name&gt;
+        &lt;patronymic&gt;Александрович&lt;/patronymic&gt;
+        &lt;registrationCount&gt;<span class="number">130</span>&lt;/registrationCount&gt;
+        &lt;registeredCount&gt;<span class="number">129</span>&lt;/registeredCount&gt;
+        &lt;voteCount&gt;<span class="number">3054</span>&lt;/voteCount&gt;
+        &lt;nonVoteCount&gt;<span class="number">2866</span>&lt;/nonVoteCount&gt;
+    &lt;/factionDeputy&gt;
+&lt;/result&gt;
+</code></pre>
+
+<p><em>Пример 2: статистика по депутату</em></p>
+
+<pre><code class="php" data-result="[object Object]">&lt;?xml version=<span class="string">"1.0"</span> <span class="preprocessor">?&gt;</span>
+&lt;result&gt;
+    &lt;registrationCount&gt;<span class="number">130</span>&lt;/registrationCount&gt;
+    &lt;registeredCount&gt;<span class="number">127</span>&lt;/registeredCount&gt;
+    &lt;forCount&gt;<span class="number">2869</span>&lt;/forCount&gt;
+    &lt;againstCount&gt;<span class="number">46</span>&lt;/againstCount&gt;
+    &lt;abstainCount&gt;<span class="number">3</span>&lt;/abstainCount&gt;
+    &lt;absentCount&gt;<span class="number">3002</span>&lt;/absentCount&gt;
+&lt;/result&gt;
+</code></pre>
+
+<h4>JSON</h4>
+
+<p><em>Пример 1: статистика по фракции</em></p>
+
+<pre><code class="" data-result="[object Object]">{
+    "faction":{
+        "registrationCount":7256,
+        "registeredCount":7183,
+        "voteCount":168720,
+        "nonVoteCount":161267,
+        "totalVoteCount":5921,
+        "totalRegistrationCount":130
+    },
+    "factionDeputy":[{
+        "code":"99111774",
+        "family":"Абрамов",
+        "name":"Иван",
+        "patronymic":"Николаевич",
+        "registrationCount":"130",
+        "registeredCount":"129",
+        "voteCount":"3050",
+        "nonVoteCount":"2870"
+    }, {
+        "code":"99111780",
+        "family":"Ананских",
+        "name":"Игорь",
+        "patronymic":"Александрович",
+        "registrationCount":"130",
+        "registeredCount":"129",
+        "voteCount":"3054",
+        "nonVoteCount":"2866"
+    }]
+}
+</code></pre>
+
+<p><em>Пример 2: статистика по депутату</em></p>
+
+<pre><code class="" data-result="[object Object]">{
+    "registrationCount":130,
+    "registeredCount":127,
+    "forCount":"2869",
+    "againstCount":"46",
+    "abstainCount":"3",
+    "absentCount":"3002"
+}
+</code></pre>
+
+<h3>Описание формата ответа</h3>
+
+<h4>XML</h4>
+
+<p><em>Статистика по фракции</em></p>
+
+<ul>
+<li><code>result</code> — результат выполнения запроса
+
+<ul>
+<li><code>faction</code> - статистика голосований по фракции</li>
+<li><code>registrationCount</code> - общее число возможных регистраций депутатов фракций</li>
+<li><code>registeredCount</code> - число регистраций депутатов фаркции</li>
+<li><code>voteCount</code> - общее число возможных голосований депутатов фракций</li>
+<li><code>nonVoteCount</code> - число голосований депутата</li>
+<li><code>totalVoteCount</code> - общее число голосований за период</li>
+<li><code>totalRegistrationCount</code> - общее число регистраций за период</li>
+<li><code>factionDeptuy</code> - статистика голосований по депутату фракции</li>
+<li><code>code</code> - код фракции</li>
+<li><code>family</code> - фамилия депутата</li>
+<li><code>name</code> - имя депутата</li>
+<li><code>patronymic</code> - отчество депутата</li>
+<li><code>registrationCount</code> - общее число регистраций, в которых мог принять участие депутат</li>
+<li><code>registeredCount</code> - число регистраций депутата</li>
+<li><code>voteCount</code> - общее число голосований, в которых мог принять участие депутат</li>
+<li><code>nonVoteCount</code> - число голосований депутата</li>
+</ul></li>
+</ul>
+
+<p><em>Статистика по депутату</em></p>
+
+<ul>
+<li><code>result</code> — результат выполнения запроса
+
+<ul>
+<li><code>registrationCount</code> - общее число регистраций, в которых мог принять участие депутат</li>
+<li><code>registeredCount</code> - число регистраций депутата</li>
+<li><code>forCount</code> - число голосов "за" депутата</li>
+<li><code>againstCount</code> - число голосов "против" депутата</li>
+<li><code>abstainCount</code> - число голосов "воздержался" депутата</li>
+<li><code>absentCount</code> - число голосований, в которых депутат не проголосовал</li>
+</ul></li>
+</ul>
+
+<h4>JSON</h4>
+
+<p><em>Статистика по фракции</em></p>
+
+<p>Результат представляет собой объект, содержащий статистику голосований фракции:</p>
+
+<ul>
+<li><code>faction</code> - объект, отражающий статистику голосований по фракции:
+
+<ul>
+<li><code>registrationCount</code> - общее число возможных регистраций депутатов фракций</li>
+<li><code>registeredCount</code> - число регистраций депутатов фаркции</li>
+<li><code>voteCount</code> - общее число возможных голосований депутатов фракций</li>
+<li><code>nonVoteCount</code> - число голосований депутата</li>
+<li><code>totalVoteCount</code> - общее число голосований за период</li>
+<li><code>totalRegistrationCount</code> - общее число регистраций за период</li>
+</ul></li>
+<li><code>factionDeptuy</code> - массив объектов, отражающих статистику голосований по депутатам фракции:
+
+<ul>
+<li><code>code</code> - код фракции</li>
+<li><code>family</code> - фамилия депутата</li>
+<li><code>name</code> - имя депутата</li>
+<li><code>patronymic</code> - отчество депутата</li>
+<li><code>registrationCount</code> - общее число регистраций, в которых мог принять участие депутат</li>
+<li><code>registeredCount</code> - число регистраций депутата</li>
+<li><code>voteCount</code> - общее число голосований, в которых мог принять участие депутат</li>
+<li><code>nonVoteCount</code> - число голосований депутата</li>
+</ul></li>
+</ul>
+
+<p><em>Статистика по депутату</em></p>
+
+<p>Результат представляет собой объект, содержащий статистику голосований депутата:</p>
+
+<ul>
+<li><code>registrationCount</code> - общее число регистраций, в которых мог принять участие депутат</li>
+<li><code>registeredCount</code> - число регистраций депутата</li>
+<li><code>forCount</code> - число голосов "за" депутата</li>
+<li><code>againstCount</code> - число голосов "против" депутата</li>
+<li><code>abstainCount</code> - число голосов "воздержался" депутата</li>
+<li><code>absentCount</code> - число голосований, в которых депутат не проголосовал</li>
+</ul>
+</div>
+	</div>
+	<div id="foot">
+		<div id="foot-l">© Государственная Дума Федерального Собрания Российской Федерации, 2026</div>
+		<div id="foot-r"><a href="http://www.duma.gov.ru/">www.duma.gov.ru</a></div>
+	</div>
+</div>
+
+</body></html>
